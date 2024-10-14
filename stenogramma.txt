@@ -1,0 +1,10 @@
+bat_protein_db is for Myotis Myotis
+на локальной машине это невозможно
+
+screen
+wget https://bds.mpi-cbg.de/hillerlab/Bat1KPilotProject/HLmolMol2.fa.gz
+wget https://bds.mpi-cbg.de/hillerlab/Bat1KPilotProject/HLmyoMyo6.fa.gz
+makeblastdb -in matrisome/refseq_sequences.fasta -dbtype prot -out human_matrisome_db
+blastx -query HLmyoMyo6.fa -db human_martisome_db -out results.txt -outfmt 6 -num_threads 10 -evalue 1e-5  
+blastx -query HLmyoMyo6.fa -db uniprot_sprot.pep -out results.txt -outfmt 6 -num_threads 10 -evalue 1e-3
+
