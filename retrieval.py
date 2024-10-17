@@ -1,12 +1,11 @@
 import Bio
 from Bio import Entrez
-
+# in case it fails and wants to file a report
 Entrez.email = "malaevleo@mail.ru"
 
 with open("matrisome_proteinsref.txt") as f:
     refseq_ids = f.read().strip().replace(':', '\n').split()
 
-# Fetch and save sequences to a FASTA file
 with open("refseq_sequences.fasta", "w") as output_fasta:
     for refseq_id in refseq_ids:
         try:

@@ -4,8 +4,8 @@ import pandas as pd
 
 matrisome_fasta_file = "refseq_sequences.fasta"
 bat_fasta_file = "myotis_protein.faa"
-blast_results_file = "blastp_myotis_data.txt"
-output_file = "paired_myotis_sequences.fasta"
+blast_results_file = "blastp_lowpid_myotis_data.txt"
+output_file = "paired_lowpid_myotis_sequences.fasta"
 
 def load_fasta_with_duplicates(fasta_file):
     sequences = {}
