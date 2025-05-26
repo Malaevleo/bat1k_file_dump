@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Directory where the FASTA files are stored
+FASTA_DIR="genes_by_category"
+
+# Loop over all *_proteins.fasta files in the specified directory
+for fasta_file in "$FASTA_DIR"/*_proteins.fasta; do
+    # Get the base name of the file (e.g., impairment_of_the_mitochondrial_integrity_and_biogenesis_genes_proteins.fasta)
+    base=$(basename "$fasta_file")
+    
+    # Remove the "_proteins" part and change extension from .fasta to .m8
+    output_base="${base/_proteins/}"
+    output_file="${FASTA_DIR}/${output_base%.fasta}.m8"
+    
+    echo "Processing file: $fasta_file"
+    echo "Output m8 file will be: $output_file"
+    
+    # Run mmseqs easy-search using the current FASTA file as query
+    mmseqs/bin/mmseqs easy-search "$fasta_file" realmergedprots_filtered.faa "$output_file" -c 0.2 tmp --min-seq-id 0.3 --alt-ali 25
+done

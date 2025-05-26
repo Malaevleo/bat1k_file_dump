@@ -1,0 +1,1852 @@
+{
+ "Site Log Likelihood":{
+   "tested":{
+     "mbXP_005863584_1":      [
+[-4.211506990302872, -23.12866989070358, -7.172125739819966, -12.86036925585654, -5.562672152705747, -12.48387827531794, -15.96164640546117, -10.33795370750167, -7.014101164687619, -4.211506990302872, -8.511904378882853, -10.18277615744049, -17.34399981810899, -4.81790311366976, -7.709405258586727, -9.292717596448115, -27.30404880786597, -6.405449217960232, -20.03969875715646, -4.917861508719045, -6.638913370870569, -11.23214811981649, -11.18033428208316, -14.65958602190558, -6.869098440402965, -5.144179378116362, -13.42317185752137, -9.599020902052082, -7.037409412426217, -24.30037757470132, -7.15875028378489, -7.012619146760063, -4.917861508719045, -7.78255025437587, -22.40344317261164, -6.917894845439189, -7.152174337804907, -5.352027894649167, -5.206193640253001, -17.83651990314944, -10.40902715489865, -11.1244307601461, -22.52990448863542, -6.75466336263155, -12.56762915409184, -15.20283248313956, -5.578766962918144, -6.488372009476678, -8.136863143795789, -5.578766962918144, -5.537774716304854, -15.89151107277318, -5.306613672805081, -10.22098339459276, -5.974179232100293, -9.754359933392506, -9.025526738065125, -6.516228695019619, -10.91932490696052, -24.75658139749846, -7.097560380688789, -6.788038359981282, -5.625793094697696, -4.97872494154612, -5.264028519585465, -7.501702362487606, -10.99011095261482, -6.638913370870569, -9.905009741427232, -5.306613672805081, -4.81790311366976, -9.443556757456745, -9.547218865760232, -14.51958772985239, -10.42119546465456, -12.85728451461161, -10.05476345407428, -6.875356723361654, -8.303242719802077, -14.12483016835809, -11.36466415706248, -5.245747313019964, -7.839024486479454, -7.014249152452482, -5.352027894649167, -14.06025818760491, -5.181294865142401, -5.297894078641919, -7.075430909040452, -15.64231088580503, -7.2543743589151, -5.822131266682431, -9.744409476305844, -6.917894845439189, -12.62245018819707, -5.595568701898346, -6.473147680187366, -6.488372009476678, -14.20847601797255, -5.144179378116362, -6.389889295159294, -6.638913370870569, -17.22164127939818, -5.578766962918144, -14.77697982147389, -5.245747313019964, -7.365723687047853, -10.7544392959932, -5.646286057138446, -7.815000566237763, -8.531263743781571, -6.018735668909948, -4.211506990302872, -20.81859646438856, -14.30988098167643, -11.345051461141, -8.47119230702882, -6.93126887957949, -5.537774716304854, -7.164207483793977, -9.160481639207068, -5.626945266551708, -5.352027894649167, -12.31417211091057, -5.070886533773878, -6.999389758363282, -11.58566302022337, -9.387274602181469, -6.638913370870569, -7.012619146760063, -4.751726289724374, -14.99869096360315, -10.80620426292616, -10.74913695974935, -5.264028519585465, -5.070886533773878, -10.11171930247733, -9.430707116475967, -13.01152783581185, -7.111263319976655, -8.700048413453858, -11.23691484398455, -6.320764618912601, -6.869098440402965, -8.776865622490018, -5.578766962918144, -6.626402665709467, -15.08353664200427, -4.91795411573676, -4.917861508719045, -5.398787222601229, -8.62152282503421, -9.282717968642716, -6.334085488452976, -5.352027894649167, -5.562672152705747, -5.562672152705747, -11.28020961359921, -5.264028519585465, -10.25441257609707, -10.96722744384413, -5.306613672805081, -26.70236476429313, -7.651570379252942, -8.75787748647711, -5.070886533773878, -12.72506619815386, -12.74702790194904, -5.625793094697696, -7.555210238289197, -10.97000451647449, -12.28437697167337, -5.822131266682431, -11.50651212381714, -18.34349139589681, -14.54285553519551, -5.144179378116362, -14.80984868418068, -18.19062614863521, -11.42780447252123, -19.97162035526316, -11.48225634929437, -16.84588048178039, -6.875356723361654, -18.04574427379118, -7.152174337804907, -8.195046347916206, -10.04629082453037, -14.86096787480571, -7.152174337804907, -9.171148340269093, -10.96355635225746, -14.77534548530774, -4.211506990302872, -20.23641315662729, -9.417016275617341, -7.125389310572452, -9.323965414057678, -6.638913370870569, -6.882512894561085, -13.30505308331202, -11.48854401517927, -11.1979020753535, -11.43490423499048, -11.58540159281719, -5.253946814438088, -4.917861508719045, -9.362721531210818, -5.537774716304854, -4.91795411573676, -6.626402665709467, -5.239123913825895, -15.87951909135627, -15.93606704415192, -11.94873852075417, -7.027648328858129, -10.55678514827484, -10.02078460560674, -5.239123913825895, -18.44509164525597, -5.206193640253001, -16.30056341219192, -5.206193640253001, -7.110935241812905, -7.164207483793977, -11.12362487306309, -12.23470293544164, -5.297894078641919, -9.86741062028104, -10.70647107890849, -5.264028519585465, -5.297894078641919, -11.28790234310903, -5.181294865142401, -7.110935241812905, -7.164207483793977, -7.343577611381471, -5.206193640253001, -11.1081958054654, -4.81790311366976, -9.787903622898948, -11.44097082091951, -8.842219795098925, -6.334085488452976, -5.306613672805081, -4.81790311366976, -9.178500504300439, -7.014249152452482, -5.626945266551708, -16.3358383364043, -5.864027441360268, -16.14231048113939, -5.278849998131597, -5.245747313019964, -15.68752581733055, -13.6808054460081, -15.50060955291741] 
+      ]
+    },
+   "unconstrained":    [
+[-4.205152004488491, -23.21484852001362, -7.169257086398529, -12.87818616549817, -5.559746750032881, -12.32870836155143, -15.77060592431969, -10.30040599650292, -6.99997215973464, -4.205152004488491, -8.516091025778309, -9.987108821674646, -17.32475425743957, -4.831015120185413, -7.719041652198364, -9.229002745936384, -27.32728027587808, -6.406448159824894, -19.9157195687905, -4.910763086363882, -6.646772164692192, -11.27515458635746, -11.09697236610103, -14.58503352648983, -6.881919556843846, -5.140312475527566, -13.34778883236656, -9.61165568007152, -7.022599132406331, -24.09565800077798, -7.155882315517386, -7.00762009660433, -4.910763086363882, -7.800134207807893, -22.47290805982658, -6.929741126034376, -7.171565649571618, -5.340101580712743, -5.189553423384238, -17.59324021042017, -10.43946827756253, -11.52762219185134, -22.05996136768551, -6.767980056732974, -12.62022429932727, -15.1432557206724, -5.566562314834045, -6.494155645706218, -8.386253401247572, -5.566562314834045, -5.535175350755626, -15.92049398209023, -5.293529743588493, -9.601875708936111, -5.957629165552991, -9.755450095494581, -9.060838862771005, -6.522035447752613, -10.93638657345354, -25.01372975067771, -7.097691475019884, -6.805066773108583, -5.630517353380394, -4.966772736029149, -5.246796491423325, -7.507470677948093, -11.01543921365514, -6.646772164692192, -9.934588462851513, -5.293529743588493, -4.831015120185413, -9.464616749584438, -9.55394791922458, -15.22811699384161, -10.7669311954432, -12.87080190742804, -10.08726414927488, -6.878143200993622, -8.328891614136603, -14.15434367963826, -11.36783353197877, -5.237511544319063, -7.859050989447812, -7.031281168684102, -5.340101580712743, -14.09606719985001, -5.165006580159887, -5.303500708780308, -7.089417516497207, -15.68932860593508, -7.278737576755368, -5.822757528282505, -9.765900801988915, -6.929741126034376, -12.54013552284938, -5.596348176431889, -6.47178142859577, -6.494155645706218, -14.20137003833182, -5.140312475527566, -6.405499615573243, -6.646772164692192, -17.23771196123234, -5.566562314834045, -14.80312432489819, -5.237511544319063, -7.368418968219657, -10.73238204643701, -5.631012681896856, -7.819576058236599, -8.533004029887655, -6.032644079235554, -4.205152004488491, -20.66588971263791, -14.44370813412993, -11.58521924715952, -8.471047296390312, -6.94351277493899, -5.535175350755626, -7.183278809455243, -9.177318133582228, -5.625373159726964, -5.340101580712743, -12.33265107102176, -5.076488305899079, -6.994328635663178, -11.61352317676562, -9.316462413515941, -6.646772164692192, -7.00762009660433, -4.740018518022503, -15.02812217824411, -10.84539253204505, -10.72720363687611, -5.246796491423325, -5.076488305899079, -10.13288508838283, -9.474838640752182, -13.20940595491192, -7.112684291555414, -8.700152359679727, -11.28664842936545, -6.326893672317079, -6.881919556843846, -8.798091369621982, -5.566562314834045, -6.634664480621402, -15.10723171079136, -4.914081351121177, -4.910763086363882, -5.403517821410169, -8.552043191737813, -9.291439544708616, -6.340082145262332, -5.340101580712743, -5.559746750032881, -5.559746750032881, -11.2990479868322, -5.246796491423325, -10.28059449851893, -10.3263634243708, -5.293529743588493, -26.82461051545069, -7.661798584158844, -8.757371018737226, -5.076488305899079, -12.82694087766729, -12.63058068708331, -5.630517353380394, -7.57313939377492, -10.6302989629452, -12.26996317648833, -5.822757528282505, -11.5401883666079, -17.98659244264565, -14.48432349512986, -5.140312475527566, -14.68376187740188, -18.2614203822487, -11.42237110457688, -19.88283166163441, -11.50705088377637, -16.8725868879618, -6.878143200993622, -18.57320202351768, -7.171565649571618, -8.212581867296155, -9.904574337043183, -14.77964652700215, -7.171565649571618, -9.178541020740228, -10.8855001019574, -14.81025823108286, -4.205152004488491, -20.30656100758504, -9.674461540521269, -7.125498208826379, -9.352003738370636, -6.646772164692192, -6.895326135298716, -13.34189114730849, -11.50492374484027, -11.26940990025272, -11.20501818352605, -11.7445131709853, -5.236943414706385, -4.910763086363882, -9.425520653400943, -5.535175350755626, -4.914081351121177, -6.634664480621402, -5.222225217882301, -15.90339805941902, -16.0155707652428, -11.81307800746711, -7.044697372242474, -10.57542046480778, -10.0479732266422, -5.222225217882301, -18.53659003000915, -5.189553423384238, -16.22978476785909, -5.189553423384238, -7.11104296657975, -7.183278809455243, -11.16013001537843, -12.28413021131967, -5.303500708780308, -9.975011576185873, -11.13319762127512, -5.246796491423325, -5.303500708780308, -11.54739844271202, -5.165006580159887, -7.11104296657975, -7.183278809455243, -7.346348308242305, -5.189553423384238, -11.10128361419124, -4.831015120185413, -9.8610742031162, -11.30048870474021, -8.8426602346964, -6.340082145262332, -5.293529743588493, -4.831015120185413, -9.10993606735966, -7.031281168684102, -5.625373159726964, -16.45225209250847, -5.868409919187834, -16.31010562236366, -5.261508294251413, -5.237511544319063, -15.68460928046585, -13.62627779261314, -15.40492540241295] 
+    ]
+  },
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM / UCSD viral evolution group",
+   "citation":"\n                                Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient Detection of Episodic Diversifying Selection (2015). \n                                Mol Biol Evol 32 (5): 1342-1353. \n                            ",
+   "contact":"spond@temple.edu",
+   "info":"aBSREL (Adaptive branch-site random effects likelihood)\n                            uses an adaptive random effects branch-site model framework\n                            to test whether each branch has evolved under positive selection,\n                            using a procedure which infers an optimal number of rate categories per branch. v2.2 adds support for multiple-hit models. v2.3 adds support for SRV. v2.5 adds support for ancestral state reconstruction, identification of sites contributing to selection signal, and some diagnostics. ",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "settings":{
+     "multiple-hit":"None",
+     "srv":0
+    },
+   "version":"2.5"
+  },
+ "branch attributes":{
+   "0":{
+     "Node10":{
+       "Baseline MG94xREV":0.004419244216995512,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.004404635615519824,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.004404635615519824,
+       "LRT":0,
+       "Nucleotide GTR":0.004405315514504577,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node13":{
+       "Baseline MG94xREV":0.01839856046285724,
+       "Baseline MG94xREV omega ratio":0.03304117329235151,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01835031555741517,
+       "Full adaptive model (non-synonymous subs/site)":0.001297857260279722,
+       "Full adaptive model (synonymous subs/site)":0.01705245829713544,
+       "LRT":0,
+       "Nucleotide GTR":0.01718236958639737,
+       "Rate Distributions":        [
+[0.02761893956683431, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node14":{
+       "Baseline MG94xREV":0.006954643043709539,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.007067220030124059,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.007067220030124059,
+       "LRT":0,
+       "Nucleotide GTR":0.006767404062106872,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node16":{
+       "Baseline MG94xREV":0.002497475009015586,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.002256794963615071,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.002256794963615071,
+       "LRT":0,
+       "Nucleotide GTR":0.002744228882464705,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node20":{
+       "Baseline MG94xREV":0.003110905111790864,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.003013157014523496,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.003013157014523496,
+       "LRT":0,
+       "Nucleotide GTR":0.003020632386747442,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node22":{
+       "Baseline MG94xREV":0.0111334110222309,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.0107936833095386,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.0107936833095386,
+       "LRT":0,
+       "Nucleotide GTR":0.01132375637707005,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node23":{
+       "Baseline MG94xREV":0.004459341369885972,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.004331968730969941,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.004331968730969941,
+       "LRT":0,
+       "Nucleotide GTR":0.004081386556566598,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node27":{
+       "Baseline MG94xREV":0.006747525819220943,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.006681727995618027,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.006681727995618027,
+       "LRT":0,
+       "Nucleotide GTR":0.006558374305525643,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node3":{
+       "Baseline MG94xREV":0.01332997184551589,
+       "Baseline MG94xREV omega ratio":0.04703769612183712,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01284805159373306,
+       "Full adaptive model (non-synonymous subs/site)":0.001297869570746888,
+       "Full adaptive model (synonymous subs/site)":0.01155018202298618,
+       "LRT":0,
+       "Nucleotide GTR":0.01290227733937202,
+       "Rate Distributions":        [
+[0.04077643811162901, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node30":{
+       "Baseline MG94xREV":0.01086245861071696,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.006641512531515091,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.006641512531515091,
+       "LRT":0,
+       "Nucleotide GTR":0.008105783618877744,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node31":{
+       "Baseline MG94xREV":0.001764310602766677,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.006009600286588728,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.006009600286588728,
+       "LRT":0,
+       "Nucleotide GTR":0.003979146855148537,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node4":{
+       "Baseline MG94xREV":0.002502233934728411,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.002501830456428086,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.002501830456428086,
+       "LRT":0,
+       "Nucleotide GTR":0.002572483536599378,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "ajXP_053525174_1":{
+       "Baseline MG94xREV":0.01120169388545201,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01146233306607593,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01146233306607593,
+       "LRT":0,
+       "Nucleotide GTR":0.01043113381950877,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"ajXP_053525174.1"
+      },
+     "drXP_024422030_1":{
+       "Baseline MG94xREV":0.01710570552396862,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01727004898494567,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01727004898494567,
+       "LRT":0,
+       "Nucleotide GTR":0.01589213263449351,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"drXP_024422030.1"
+      },
+     "enKAK1340525_1":{
+       "Baseline MG94xREV":1307.073302859875,
+       "Baseline MG94xREV omega ratio":3.481528057327711e-05,
+       "Corrected P-value":1,
+       "Full adaptive model":4.829173970673363,
+       "Full adaptive model (non-synonymous subs/site)":0.1667799699677243,
+       "Full adaptive model (synonymous subs/site)":4.662394000705637,
+       "LRT":0,
+       "Nucleotide GTR":0.4011470299464435,
+       "Rate Distributions":        [
+[0, 0.7212340728842305],
+        [0.04656528818479015, 0.2787659271157695] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":1,
+       "original name":"enKAK1340525.1"
+      },
+     "mbXP_005863584_1":{
+       "Baseline MG94xREV":0.002608346787798331,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.002608156719731844,
+       "Full adaptive model (non-synonymous subs/site)":0.002608156719731844,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":-1.834412999014603,
+       "Nucleotide GTR":0.00260256400566802,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.5,
+       "original name":"mbXP_005863584.1"
+      },
+     "mdXP_059519792_1":{
+       "Baseline MG94xREV":0.007943928114342504,
+       "Baseline MG94xREV omega ratio":0.2124195626782055,
+       "Corrected P-value":1,
+       "Full adaptive model":0.007904169151192866,
+       "Full adaptive model (non-synonymous subs/site)":0.00260753961907056,
+       "Full adaptive model (synonymous subs/site)":0.005296629532122315,
+       "LRT":0,
+       "Nucleotide GTR":0.007868504040139347,
+       "Rate Distributions":        [
+[0.1786480923760535, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"mdXP_059519792.1"
+      },
+     "mlXP_023605350_1":{
+       "Baseline MG94xREV":0.002624815297266013,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.002612366315675558,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.002612366315675558,
+       "LRT":0,
+       "Nucleotide GTR":0.00260767764200675,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"mlXP_023605350.1"
+      },
+     "mmXP_036188305_1":{
+       "Baseline MG94xREV":0.006536965973365776,
+       "Baseline MG94xREV omega ratio":0.2880078385655805,
+       "Corrected P-value":1,
+       "Full adaptive model":0.006562313963322799,
+       "Full adaptive model (non-synonymous subs/site)":0.002601583731111155,
+       "Full adaptive model (synonymous subs/site)":0.003960730232211646,
+       "LRT":0,
+       "Nucleotide GTR":0.00653136511625435,
+       "Rate Distributions":        [
+[0.2383579324766789, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"mmXP_036188305.1"
+      },
+     "moXP_036122093_1":{
+       "Baseline MG94xREV":0.01525143370307773,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01524627733723282,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01524627733723282,
+       "LRT":0,
+       "Nucleotide GTR":0.01459451642480202,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"moXP_036122093.1"
+      },
+     "paXP_024899357_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"paXP_024899357.1"
+      },
+     "pdXP_035886609_1":{
+       "Baseline MG94xREV":0.001387150452090325,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.001376320861026959,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.001376320861026959,
+       "LRT":0,
+       "Nucleotide GTR":0.001321527974618819,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"pdXP_035886609.1"
+      },
+     "pgXP_039693214_1":{
+       "Baseline MG94xREV":0.00132001078379233,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.001314254160697243,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.001314254160697243,
+       "LRT":0,
+       "Nucleotide GTR":0.001304731187955587,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"pgXP_039693214.1"
+      },
+     "phXP_045712899_1":{
+       "Baseline MG94xREV":0.001247888409960186,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.001276322445556973,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.001276322445556973,
+       "LRT":0,
+       "Nucleotide GTR":0.001284706033606889,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"phXP_045712899.1"
+      },
+     "pkXP_045435202_1":{
+       "Baseline MG94xREV":0.006677295170190883,
+       "Baseline MG94xREV omega ratio":0.1055096363416829,
+       "Corrected P-value":1,
+       "Full adaptive model":0.006642400546173666,
+       "Full adaptive model (non-synonymous subs/site)":0.001302255035827262,
+       "Full adaptive model (synonymous subs/site)":0.005340145510346411,
+       "LRT":0,
+       "Nucleotide GTR":0.006696926106761948,
+       "Rate Distributions":        [
+[0.08849322436365019, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"pkXP_045435202.1"
+      },
+     "pnCAK6435619_1":{
+       "Baseline MG94xREV":0.005302382656223383,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.00531435818768531,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.00531435818768531,
+       "LRT":0,
+       "Nucleotide GTR":0.00507586881921678,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"pnCAK6435619.1"
+      },
+     "pvXP_011383339_1":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":1,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"pvXP_011383339.1"
+      },
+     "raXP_016006690_1":{
+       "Baseline MG94xREV":0.008304665221244354,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.008209764242927495,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.008209764242927495,
+       "LRT":0,
+       "Nucleotide GTR":0.007932591203846746,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"raXP_016006690.1"
+      },
+     "rfXP_032988607_1":{
+       "Baseline MG94xREV":0.016955216519052,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.0170082342592533,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.0170082342592533,
+       "LRT":0,
+       "Nucleotide GTR":0.01557100005568753,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"rfXP_032988607.1"
+      },
+     "sbXP_066100663_1":{
+       "Baseline MG94xREV":0.03395656172585477,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.03365952685136204,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.03365952685136204,
+       "LRT":0,
+       "Nucleotide GTR":0.03104387189948005,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"sbXP_066100663.1"
+      }
+    },
+   "attributes":{
+     "Baseline MG94xREV":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Baseline MG94xREV omega ratio":{
+       "attribute type":"branch label",
+       "display order":1
+      },
+     "Corrected P-value":{
+       "attribute type":"branch label",
+       "display order":6
+      },
+     "Full adaptive model":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "Full adaptive model (non-synonymous subs/site)":{
+       "attribute type":"branch label",
+       "display order":10
+      },
+     "Full adaptive model (synonymous subs/site)":{
+       "attribute type":"branch label",
+       "display order":9
+      },
+     "LRT":{
+       "attribute type":"branch label",
+       "display order":4
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Rate Distributions":{
+       "attribute type":"branch label",
+       "display order":3
+      },
+     "Rate classes":{
+       "attribute type":"branch label",
+       "display order":2
+      },
+     "Uncorrected P-value":{
+       "attribute type":"branch label",
+       "display order":5
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      },
+     "posterior":{
+       "attribute type":"branch annotations",
+       "display order":-1
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256] 
+      ],
+     "name":"absrel.filter.default"
+    }
+  },
+ "fits":{
+   "Baseline MG94xREV":{
+     "AIC-c":5069.416335084542,
+     "Equilibrium frequencies":      [
+[0.02363452169983382],
+      [0.02430217140558968],
+      [0.02397854324552446],
+      [0.03047107376803277],
+      [0.01131921131273893],
+      [0.01163896680423219],
+      [0.01148397253030293],
+      [0.01459342089875439],
+      [0.0125004942236208],
+      [0.01285361968121202],
+      [0.01268245006767485],
+      [0.01611640321993464],
+      [0.02039884227802979],
+      [0.0209750875356092],
+      [0.02069576562346126],
+      [0.02629943756554556],
+      [0.01699660697276236],
+      [0.01747674275838702],
+      [0.0172440077484805],
+      [0.02191306731106572],
+      [0.008140134518805252],
+      [0.008370084525211841],
+      [0.008258621437849136],
+      [0.0104947602728922],
+      [0.008989646161769496],
+      [0.009243593954366327],
+      [0.009120498480553912],
+      [0.01159000274355952],
+      [0.01466968992655682],
+      [0.01508409281938389],
+      [0.01488322034902236],
+      [0.01891306325481607],
+      [0.0248255347760908],
+      [0.025526829314605],
+      [0.02518689257950797],
+      [0.03200660081470759],
+      [0.01188961966953181],
+      [0.01222548858089497],
+      [0.01206268368954178],
+      [0.01532882630862399],
+      [0.01313043090137942],
+      [0.01350135138959963],
+      [0.01332155603569125],
+      [0.01692855618926286],
+      [0.02142679994953232],
+      [0.02203208390083375],
+      [0.02173868613582624],
+      [0.02762474359189891],
+      [0.0193219219015367],
+      [0.02422662970217029],
+      [0.008999562768347012],
+      [0.009253790694366796],
+      [0.009130559432185928],
+      [0.0116027878404779],
+      [0.01021952448147533],
+      [0.01008343269570509],
+      [0.01281366504877944],
+      [0.01621850289835419],
+      [0.01667665808445905],
+      [0.01645457767518875],
+      [0.02090988785384552] 
+      ],
+     "Log Likelihood":-2459.488655347149,
+     "Rate Distributions":{
+       "Per-branch omega":{
+         "2.5%":0,
+         "97.5%":3.481528057327711e-05,
+         "Mean":1111111111.29845,
+         "Median":0.2124195626782055
+        }
+      },
+     "display order":1,
+     "estimated parameters":74
+    },
+   "Full adaptive model":{
+     "AIC-c":5019.755612919614,
+     "Log Likelihood":-2432.591369880339,
+     "Rate Distributions":{
+      },
+     "display order":2,
+     "estimated parameters":76
+    },
+   "Nucleotide GTR":{
+     "AIC-c":5688.081574756743,
+     "Equilibrium frequencies":      [
+[0.2781380602392276],
+      [0.2116299178555988],
+      [0.2393716673872316],
+      [0.270860354517942] 
+      ],
+     "Log Likelihood":-2802.916329442552,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.5783150026421917,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.1538483763836491,
+       "Substitution rate from nucleotide C to nucleotide G":0.3947204478089744,
+       "Substitution rate from nucleotide C to nucleotide T":1.368340157301418,
+       "Substitution rate from nucleotide G to nucleotide T":0.2191983949323584
+      },
+     "display order":0,
+     "estimated parameters":41
+    }
+  },
+ "input":{
+   "file name":"/home/malaevleo/pal2nal_output_cleaned/P42338.1_bat_only_nucleotide_codon_aligned.fasta",
+   "number of sequences":18,
+   "number of sites":257,
+   "partition count":1,
+   "trees":{
+     "0":"(rfXP_032988607_1,((paXP_024899357_1,pgXP_039693214_1,pvXP_011383339_1)Node4,raXP_016006690_1)Node3,(sbXP_066100663_1,((ajXP_053525174_1,(phXP_045712899_1,pdXP_035886609_1)Node16)Node14,drXP_024422030_1)Node13,(moXP_036122093_1,(((mdXP_059519792_1,mmXP_036188305_1)Node27,mbXP_005863584_1,mlXP_023605350_1)Node23,((pkXP_045435202_1,pnCAK6435619_1)Node31,enKAK1340525_1)Node30)Node22)Node20)Node10)"
+    }
+  },
+ "runtime":"2.5.63",
+ "substitutions":{
+   "0":{
+     "0":{
+       "root":"ATG"
+      },
+     "1":{
+       "Node10":"TTA",
+       "Node14":"CTA",
+       "Node23":"TTG",
+       "drXP_024422030_1":"TTG",
+       "enKAK1340525_1":"CTG",
+       "root":"TTG"
+      },
+     "10":{
+       "enKAK1340525_1":"GAC",
+       "moXP_036122093_1":"GAC",
+       "root":"GAT"
+      },
+     "100":{
+       "enKAK1340525_1":"GTG",
+       "root":"GTC"
+      },
+     "101":{
+       "enKAK1340525_1":"CTG",
+       "root":"CTT"
+      },
+     "102":{
+       "Node22":"GGA",
+       "enKAK1340525_1":"GGC",
+       "pdXP_035886609_1":"GGC",
+       "root":"GGG"
+      },
+     "103":{
+       "enKAK1340525_1":"ATC",
+       "root":"ATT"
+      },
+     "104":{
+       "drXP_024422030_1":"GGC",
+       "enKAK1340525_1":"GGC",
+       "mmXP_036188305_1":"GGC",
+       "root":"GGT"
+      },
+     "105":{
+       "root":"GAC"
+      },
+     "106":{
+       "enKAK1340525_1":"CGG",
+       "root":"AGA"
+      },
+     "107":{
+       "Node16":"CAC",
+       "enKAK1340525_1":"CAC",
+       "root":"CAT"
+      },
+     "108":{
+       "enKAK1340525_1":"AGC",
+       "root":"AGT"
+      },
+     "109":{
+       "root":"GAC",
+       "sbXP_066100663_1":"GAT"
+      },
+     "11":{
+       "enKAK1340525_1":"ATC",
+       "root":"TTA"
+      },
+     "110":{
+       "drXP_024422030_1":"AAT",
+       "root":"AAC"
+      },
+     "111":{
+       "root":"ATC"
+      },
+     "112":{
+       "root":"ATG"
+      },
+     "113":{
+       "Node13":"GTC",
+       "ajXP_053525174_1":"GTA",
+       "enKAK1340525_1":"ATC",
+       "root":"GTA",
+       "sbXP_066100663_1":"GTT"
+      },
+     "114":{
+       "Node23":"AAG",
+       "enKAK1340525_1":"CGC",
+       "root":"AAA"
+      },
+     "115":{
+       "enKAK1340525_1":"GAG",
+       "moXP_036122093_1":"AAG",
+       "root":"AAA"
+      },
+     "116":{
+       "Node13":"AAC",
+       "enKAK1340525_1":"AAC",
+       "root":"AAT"
+      },
+     "117":{
+       "enKAK1340525_1":"GGG",
+       "root":"GGC"
+      },
+     "118":{
+       "root":"CAG"
+      },
+     "119":{
+       "enKAK1340525_1":"CTG",
+       "root":"CTC"
+      },
+     "12":{
+       "Node3":"CTG",
+       "enKAK1340525_1":"CTG",
+       "rfXP_032988607_1":"CTA",
+       "root":"CTC",
+       "sbXP_066100663_1":"CTT"
+      },
+     "120":{
+       "Node30":"TTT",
+       "enKAK1340525_1":"TTC",
+       "root":"TTC"
+      },
+     "121":{
+       "root":"CAC"
+      },
+     "122":{
+       "root":"ATT"
+      },
+     "123":{
+       "Node14":"GAT",
+       "enKAK1340525_1":"GAT",
+       "rfXP_032988607_1":"GAT",
+       "root":"GAC"
+      },
+     "124":{
+       "root":"TTT"
+      },
+     "125":{
+       "enKAK1340525_1":"GGC",
+       "root":"GGA"
+      },
+     "126":{
+       "enKAK1340525_1":"CAC",
+       "rfXP_032988607_1":"CAC",
+       "root":"CAT",
+       "sbXP_066100663_1":"CAC"
+      },
+     "127":{
+       "enKAK1340525_1":"TTT",
+       "root":"ATT"
+      },
+     "128":{
+       "enKAK1340525_1":"CTG",
+       "root":"CTT"
+      },
+     "129":{
+       "enKAK1340525_1":"GGG",
+       "root":"GGA"
+      },
+     "13":{
+       "root":"TGG"
+      },
+     "130":{
+       "root":"AAT"
+      },
+     "131":{
+       "Node10":"TTT",
+       "enKAK1340525_1":"TTC",
+       "mmXP_036188305_1":"TTC",
+       "root":"TTC"
+      },
+     "132":{
+       "drXP_024422030_1":"AAA",
+       "root":"AAG",
+       "sbXP_066100663_1":"AAA"
+      },
+     "133":{
+       "enKAK1340525_1":"ACC",
+       "root":"TCT"
+      },
+     "134":{
+       "enKAK1340525_1":"AAG",
+       "root":"AAA"
+      },
+     "135":{
+       "root":"TTT"
+      },
+     "136":{
+       "Node13":"GGT",
+       "enKAK1340525_1":"GGA",
+       "root":"GGC"
+      },
+     "137":{
+       "enKAK1340525_1":"ATC",
+       "root":"ATT",
+       "sbXP_066100663_1":"ATA"
+      },
+     "138":{
+       "enKAK1340525_1":"AAC",
+       "pkXP_045435202_1":"AAG",
+       "root":"AAA"
+      },
+     "139":{
+       "enKAK1340525_1":"CGT",
+       "root":"AGG"
+      },
+     "14":{
+       "enKAK1340525_1":"AAG",
+       "root":"AAA",
+       "sbXP_066100663_1":"AAG"
+      },
+     "140":{
+       "Node3":"GAA",
+       "root":"GAG"
+      },
+     "141":{
+       "Node13":"CGG",
+       "enKAK1340525_1":"CGG",
+       "root":"CGA"
+      },
+     "142":{
+       "enKAK1340525_1":"GTC",
+       "root":"GTG"
+      },
+     "143":{
+       "enKAK1340525_1":"CCC",
+       "root":"CCT"
+      },
+     "144":{
+       "enKAK1340525_1":"TTC",
+       "rfXP_032988607_1":"TTC",
+       "root":"TTT"
+      },
+     "145":{
+       "enKAK1340525_1":"ATC",
+       "root":"ATT"
+      },
+     "146":{
+       "enKAK1340525_1":"CTC",
+       "root":"CTT"
+      },
+     "147":{
+       "Node3":"ACT",
+       "pnCAK6435619_1":"ACT",
+       "root":"ACC"
+      },
+     "148":{
+       "root":"TAT"
+      },
+     "149":{
+       "enKAK1340525_1":"GAC",
+       "root":"GAT"
+      },
+     "15":{
+       "enKAK1340525_1":"CAG",
+       "root":"GAA"
+      },
+     "150":{
+       "enKAK1340525_1":"TTT",
+       "root":"TTC"
+      },
+     "151":{
+       "enKAK1340525_1":"GTG",
+       "root":"ATT"
+      },
+     "152":{
+       "raXP_016006690_1":"CAC",
+       "root":"CAT"
+      },
+     "153":{
+       "root":"GTG"
+      },
+     "154":{
+       "root":"ATT"
+      },
+     "155":{
+       "enKAK1340525_1":"CAG",
+       "root":"CAA"
+      },
+     "156":{
+       "enKAK1340525_1":"CAG",
+       "root":"CAA"
+      },
+     "157":{
+       "enKAK1340525_1":"GGC",
+       "mdXP_059519792_1":"GGG",
+       "root":"GGA"
+      },
+     "158":{
+       "enKAK1340525_1":"AAG",
+       "root":"AAA"
+      },
+     "159":{
+       "drXP_024422030_1":"ACG",
+       "enKAK1340525_1":"ACG",
+       "root":"ACA"
+      },
+     "16":{
+       "Node22":"GCC",
+       "drXP_024422030_1":"GCC",
+       "enKAK1340525_1":"GAG",
+       "phXP_045712899_1":"GCC",
+       "pnCAK6435619_1":"GCT",
+       "root":"GCT"
+      },
+     "160":{
+       "enKAK1340525_1":"AAC",
+       "root":"GGA"
+      },
+     "161":{
+       "root":"AAC"
+      },
+     "162":{
+       "ajXP_053525174_1":"ACG",
+       "drXP_024422030_1":"ACG",
+       "enKAK1340525_1":"AGT",
+       "moXP_036122093_1":"ACT",
+       "rfXP_032988607_1":"ACG",
+       "root":"ACA",
+       "sbXP_066100663_1":"ACG"
+      },
+     "163":{
+       "enKAK1340525_1":"GAG",
+       "root":"GAA",
+       "sbXP_066100663_1":"GAG"
+      },
+     "164":{
+       "Node3":"AAA",
+       "root":"AAG"
+      },
+     "165":{
+       "root":"TTT"
+      },
+     "166":{
+       "Node13":"GGT",
+       "enKAK1340525_1":"GAA",
+       "root":"GGC"
+      },
+     "167":{
+       "ajXP_053525174_1":"CGT",
+       "enKAK1340525_1":"AGG",
+       "root":"CGG"
+      },
+     "168":{
+       "root":"TTC"
+      },
+     "169":{
+       "enKAK1340525_1":"CGT",
+       "root":"CGC"
+      },
+     "17":{
+       "enKAK1340525_1":"GGG",
+       "root":"GGT"
+      },
+     "170":{
+       "enKAK1340525_1":"GGC",
+       "root":"CAG"
+      },
+     "171":{
+       "Node30":"TGC",
+       "enKAK1340525_1":"TAC",
+       "root":"TGT"
+      },
+     "172":{
+       "enKAK1340525_1":"TGC",
+       "root":"TGT"
+      },
+     "173":{
+       "raXP_016006690_1":"GAA",
+       "root":"GAG",
+       "sbXP_066100663_1":"GAA"
+      },
+     "174":{
+       "enKAK1340525_1":"AGG",
+       "pkXP_045435202_1":"GAC",
+       "rfXP_032988607_1":"GAC",
+       "root":"GAT"
+      },
+     "175":{
+       "Node22":"GCC",
+       "rfXP_032988607_1":"GCG",
+       "root":"GCA"
+      },
+     "176":{
+       "enKAK1340525_1":"TAC",
+       "root":"TAT"
+      },
+     "177":{
+       "enKAK1340525_1":"ACC",
+       "root":"CTG",
+       "sbXP_066100663_1":"TTG"
+      },
+     "178":{
+       "Node30":"ATC",
+       "moXP_036122093_1":"ATC",
+       "raXP_016006690_1":"ATA",
+       "root":"ATT"
+      },
+     "179":{
+       "enKAK1340525_1":"CTG",
+       "raXP_016006690_1":"CTA",
+       "root":"TTA"
+      },
+     "18":{
+       "Node14":"TTG",
+       "Node3":"CTT",
+       "moXP_036122093_1":"CTA",
+       "root":"CTG"
+      },
+     "180":{
+       "Node30":"CGC",
+       "drXP_024422030_1":"AGA",
+       "enKAK1340525_1":"AGG",
+       "rfXP_032988607_1":"CGT",
+       "root":"CGA"
+      },
+     "181":{
+       "enKAK1340525_1":"CGC",
+       "root":"CGG",
+       "sbXP_066100663_1":"CGC"
+      },
+     "182":{
+       "Node13":"CAC",
+       "Node22":"CAC",
+       "pkXP_045435202_1":"CAT",
+       "root":"CAT"
+      },
+     "183":{
+       "root":"GGG"
+      },
+     "184":{
+       "Node30":"AAC",
+       "ajXP_053525174_1":"AAC",
+       "enKAK1340525_1":"CTG",
+       "root":"AAT"
+      },
+     "185":{
+       "root":"CTC"
+      },
+     "186":{
+       "root":"TTC",
+       "sbXP_066100663_1":"TTT"
+      },
+     "187":{
+       "enKAK1340525_1":"CTC",
+       "root":"ATC"
+      },
+     "188":{
+       "Node30":"ACC",
+       "enKAK1340525_1":"CAC",
+       "root":"ACT"
+      },
+     "189":{
+       "root":"CTC"
+      },
+     "19":{
+       "enKAK1340525_1":"GAC",
+       "root":"GAT"
+      },
+     "190":{
+       "Node3":"TTC",
+       "enKAK1340525_1":"TTC",
+       "root":"TTT"
+      },
+     "191":{
+       "Node13":"GCC",
+       "enKAK1340525_1":"GCC",
+       "root":"GCA"
+      },
+     "192":{
+       "Node13":"TTG",
+       "raXP_016006690_1":"CTA",
+       "root":"CTG"
+      },
+     "193":{
+       "root":"ATG"
+      },
+     "194":{
+       "Node23":"CTG",
+       "drXP_024422030_1":"CTG",
+       "enKAK1340525_1":"CGG",
+       "root":"TTG"
+      },
+     "195":{
+       "enKAK1340525_1":"GCG",
+       "root":"ACT"
+      },
+     "196":{
+       "root":"GCA"
+      },
+     "197":{
+       "enKAK1340525_1":"GGC",
+       "root":"GGG",
+       "sbXP_066100663_1":"GGA"
+      },
+     "198":{
+       "enKAK1340525_1":"CTG",
+       "root":"CTT"
+      },
+     "199":{
+       "enKAK1340525_1":"CCG",
+       "root":"CCT"
+      },
+     "2":{
+       "enKAK1340525_1":"ACG",
+       "root":"ACA"
+      },
+     "20":{
+       "enKAK1340525_1":"CTG",
+       "root":"CTT"
+      },
+     "200":{
+       "drXP_024422030_1":"GAA",
+       "mlXP_023605350_1":"GAA",
+       "root":"GAG"
+      },
+     "201":{
+       "moXP_036122093_1":"CTG",
+       "root":"CTC"
+      },
+     "202":{
+       "enKAK1340525_1":"AGC",
+       "root":"ACA"
+      },
+     "203":{
+       "enKAK1340525_1":"TGC",
+       "root":"TCA"
+      },
+     "204":{
+       "enKAK1340525_1":"TCC",
+       "root":"GTC"
+      },
+     "205":{
+       "enKAK1340525_1":"AAA",
+       "root":"AAG"
+      },
+     "206":{
+       "enKAK1340525_1":"GAC",
+       "root":"GAT"
+      },
+     "207":{
+       "enKAK1340525_1":"ATC",
+       "root":"ATA",
+       "sbXP_066100663_1":"ATT"
+      },
+     "208":{
+       "root":"CAG"
+      },
+     "209":{
+       "root":"TAT"
+      },
+     "21":{
+       "Node3":"CGA",
+       "enKAK1340525_1":"AGG",
+       "root":"CGG"
+      },
+     "210":{
+       "enKAK1340525_1":"CTC",
+       "root":"CTT"
+      },
+     "211":{
+       "root":"AAG"
+      },
+     "212":{
+       "Node3":"GAT",
+       "ajXP_053525174_1":"GAT",
+       "moXP_036122093_1":"GAT",
+       "root":"GAC"
+      },
+     "213":{
+       "Node20":"TCA",
+       "enKAK1340525_1":"TCG",
+       "root":"TCT",
+       "sbXP_066100663_1":"TCC"
+      },
+     "214":{
+       "ajXP_053525174_1":"CTG",
+       "enKAK1340525_1":"CTG",
+       "root":"CTT"
+      },
+     "215":{
+       "enKAK1340525_1":"GCG",
+       "root":"GCC"
+      },
+     "216":{
+       "ajXP_053525174_1":"TTG",
+       "enKAK1340525_1":"CTG",
+       "root":"TTA"
+      },
+     "217":{
+       "Node13":"GGA",
+       "root":"GGG"
+      },
+     "218":{
+       "root":"AAG"
+      },
+     "219":{
+       "Node4":"AGC",
+       "enKAK1340525_1":"ACC",
+       "root":"AGT",
+       "sbXP_066100663_1":"AGC"
+      },
+     "22":{
+       "mdXP_059519792_1":"CTG",
+       "root":"ATG"
+      },
+     "220":{
+       "enKAK1340525_1":"GAG",
+       "root":"GAA"
+      },
+     "221":{
+       "Node13":"GAC",
+       "ajXP_053525174_1":"GAT",
+       "enKAK1340525_1":"GAG",
+       "root":"GAA"
+      },
+     "222":{
+       "enKAK1340525_1":"GAG",
+       "root":"GAA"
+      },
+     "223":{
+       "enKAK1340525_1":"GCG",
+       "root":"GCA"
+      },
+     "224":{
+       "enKAK1340525_1":"CTG",
+       "root":"CTC"
+      },
+     "225":{
+       "Node30":"AAA",
+       "enKAK1340525_1":"AAG",
+       "root":"AAG",
+       "sbXP_066100663_1":"AAA"
+      },
+     "226":{
+       "Node13":"CAG",
+       "enKAK1340525_1":"CAC",
+       "root":"CAA"
+      },
+     "227":{
+       "enKAK1340525_1":"TTC",
+       "root":"TTT"
+      },
+     "228":{
+       "enKAK1340525_1":"CGC",
+       "root":"AAG"
+      },
+     "229":{
+       "enKAK1340525_1":"GTG",
+       "root":"CAA"
+      },
+     "23":{
+       "drXP_024422030_1":"TTA",
+       "enKAK1340525_1":"ACC",
+       "root":"TTG"
+      },
+     "230":{
+       "enKAK1340525_1":"AAG",
+       "root":"AAA"
+      },
+     "231":{
+       "enKAK1340525_1":"TTC",
+       "root":"TTT"
+      },
+     "232":{
+       "enKAK1340525_1":"AAC",
+       "rfXP_032988607_1":"GAC",
+       "root":"GAT"
+      },
+     "233":{
+       "root":"GAG"
+      },
+     "234":{
+       "enKAK1340525_1":"GCG",
+       "root":"GCA"
+      },
+     "235":{
+       "enKAK1340525_1":"CTG",
+       "root":"CTC"
+      },
+     "236":{
+       "enKAK1340525_1":"CGG",
+       "root":"AGG"
+      },
+     "237":{
+       "enKAK1340525_1":"GAG",
+       "root":"GAA"
+      },
+     "238":{
+       "mlXP_023605350_1":"AGT",
+       "root":"AGC"
+      },
+     "239":{
+       "root":"TGG"
+      },
+     "24":{
+       "enKAK1340525_1":"CCC",
+       "root":"CCT"
+      },
+     "240":{
+       "enKAK1340525_1":"AAG",
+       "root":"ACT"
+      },
+     "241":{
+       "enKAK1340525_1":"ACC",
+       "rfXP_032988607_1":"ACG",
+       "root":"ACT"
+      },
+     "242":{
+       "Node22":"AAG",
+       "enKAK1340525_1":"AAA",
+       "root":"AAA"
+      },
+     "243":{
+       "root":"GTG"
+      },
+     "244":{
+       "root":"AAC"
+      },
+     "245":{
+       "root":"TGG"
+      },
+     "246":{
+       "enKAK1340525_1":"CTG",
+       "root":"ATG"
+      },
+     "247":{
+       "root":"GCC"
+      },
+     "248":{
+       "root":"CAC"
+      },
+     "249":{
+       "Node22":"ACG",
+       "enKAK1340525_1":"AAC",
+       "root":"ACA",
+       "sbXP_066100663_1":"ACG"
+      },
+     "25":{
+       "enKAK1340525_1":"TAC",
+       "root":"TAT"
+      },
+     "250":{
+       "enKAK1340525_1":"GTG",
+       "root":"GTT"
+      },
+     "251":{
+       "Node30":"CGA",
+       "enKAK1340525_1":"TCC",
+       "root":"CGG"
+      },
+     "252":{
+       "root":"AAA"
+      },
+     "253":{
+       "root":"GAC"
+      },
+     "254":{
+       "enKAK1340525_1":"AAC",
+       "mmXP_036188305_1":"TGC",
+       "root":"TAC"
+      },
+     "255":{
+       "enKAK1340525_1":"AGG",
+       "moXP_036122093_1":"CGA",
+       "root":"AGA",
+       "sbXP_066100663_1":"AGG"
+      },
+     "256":{
+       "enKAK1340525_1":"CAA",
+       "root":"TCT",
+       "sbXP_066100663_1":"TCG"
+      },
+     "26":{
+       "pgXP_039693214_1":"GGA",
+       "root":"GGC"
+      },
+     "27":{
+       "Node30":"TGC",
+       "root":"TGT"
+      },
+     "28":{
+       "enKAK1340525_1":"CTC",
+       "root":"TTA"
+      },
+     "29":{
+       "Node22":"GCG",
+       "enKAK1340525_1":"TCC",
+       "pkXP_045435202_1":"GCC",
+       "rfXP_032988607_1":"GCC",
+       "root":"GCA"
+      },
+     "3":{
+       "enKAK1340525_1":"CTG",
+       "mmXP_036188305_1":"CTG",
+       "root":"CTC"
+      },
+     "30":{
+       "enKAK1340525_1":"ACC",
+       "root":"ACA"
+      },
+     "31":{
+       "enKAK1340525_1":"GGG",
+       "root":"GGA"
+      },
+     "32":{
+       "enKAK1340525_1":"GAC",
+       "root":"GAT"
+      },
+     "33":{
+       "root":"CGC"
+      },
+     "34":{
+       "Node20":"TCA",
+       "Node27":"TCT",
+       "enKAK1340525_1":"ACG",
+       "root":"TCT"
+      },
+     "35":{
+       "root":"GGC"
+      },
+     "36":{
+       "root":"CTC"
+      },
+     "37":{
+       "root":"ATT"
+      },
+     "38":{
+       "enKAK1340525_1":"GAG",
+       "root":"GAA"
+      },
+     "39":{
+       "enKAK1340525_1":"GTG",
+       "mbXP_005863584_1":"ATT",
+       "mmXP_036188305_1":"ATT",
+       "root":"GTT"
+      },
+     "4":{
+       "enKAK1340525_1":"CAG",
+       "root":"CAA"
+      },
+     "40":{
+       "Node27":"GTA",
+       "root":"GTG"
+      },
+     "41":{
+       "enKAK1340525_1":"CTT",
+       "root":"AGC"
+      },
+     "42":{
+       "enKAK1340525_1":"CAC",
+       "mbXP_005863584_1":"AAC",
+       "rfXP_032988607_1":"ACG",
+       "root":"ACC"
+      },
+     "43":{
+       "enKAK1340525_1":"TCA",
+       "root":"TCT"
+      },
+     "44":{
+       "Node14":"GAG",
+       "enKAK1340525_1":"GAC",
+       "root":"GAA"
+      },
+     "45":{
+       "Node27":"ACG",
+       "enKAK1340525_1":"ACC",
+       "moXP_036122093_1":"ACC",
+       "root":"ACA"
+      },
+     "46":{
+       "enKAK1340525_1":"ATC",
+       "root":"ATT"
+      },
+     "47":{
+       "enKAK1340525_1":"GCC",
+       "root":"GCT"
+      },
+     "48":{
+       "enKAK1340525_1":"AAC",
+       "root":"GAC"
+      },
+     "49":{
+       "enKAK1340525_1":"ATC",
+       "root":"ATT"
+      },
+     "5":{
+       "pkXP_045435202_1":"ATT",
+       "root":"ATG"
+      },
+     "50":{
+       "root":"CAG"
+      },
+     "51":{
+       "Node13":"CTC",
+       "enKAK1340525_1":"CTA",
+       "mdXP_059519792_1":"CTA",
+       "root":"CTG"
+      },
+     "52":{
+       "root":"AAC"
+      },
+     "53":{
+       "enKAK1340525_1":"AAG",
+       "root":"AGT"
+      },
+     "54":{
+       "root":"AGC"
+      },
+     "55":{
+       "Node10":"AAT",
+       "enKAK1340525_1":"AAC",
+       "root":"AAC"
+      },
+     "56":{
+       "enKAK1340525_1":"ATG",
+       "root":"GTG"
+      },
+     "57":{
+       "enKAK1340525_1":"GCA",
+       "root":"GCT"
+      },
+     "58":{
+       "Node27":"GCC",
+       "enKAK1340525_1":"GCC",
+       "root":"GCT"
+      },
+     "59":{
+       "Node13":"GCT",
+       "Node3":"ACA",
+       "enKAK1340525_1":"ACG",
+       "moXP_036122093_1":"GCC",
+       "root":"GCA"
+      },
+     "6":{
+       "enKAK1340525_1":"ATC",
+       "mdXP_059519792_1":"CTC",
+       "root":"CTG"
+      },
+     "60":{
+       "enKAK1340525_1":"GCC",
+       "root":"GCA"
+      },
+     "61":{
+       "enKAK1340525_1":"GCT",
+       "root":"GCC"
+      },
+     "62":{
+       "root":"TTC"
+      },
+     "63":{
+       "enKAK1340525_1":"AAC",
+       "root":"AAT"
+      },
+     "64":{
+       "enKAK1340525_1":"AAG",
+       "root":"AAA"
+      },
+     "65":{
+       "root":"GAT",
+       "sbXP_066100663_1":"GAC"
+      },
+     "66":{
+       "raXP_016006690_1":"GCT",
+       "root":"GCC"
+      },
+     "67":{
+       "enKAK1340525_1":"CTG",
+       "root":"CTT"
+      },
+     "68":{
+       "enKAK1340525_1":"CTC",
+       "root":"CTG",
+       "sbXP_066100663_1":"CTA"
+      },
+     "69":{
+       "root":"AAC"
+      },
+     "7":{
+       "enKAK1340525_1":"CAG",
+       "root":"CGC"
+      },
+     "70":{
+       "root":"TGG"
+      },
+     "71":{
+       "enKAK1340525_1":"CTC",
+       "root":"CTT",
+       "sbXP_066100663_1":"CTC"
+      },
+     "72":{
+       "enKAK1340525_1":"AAG",
+       "mdXP_059519792_1":"AAG",
+       "root":"AAA"
+      },
+     "73":{
+       "enKAK1340525_1":"TCC",
+       "moXP_036122093_1":"GAG",
+       "root":"GAA"
+      },
+     "74":{
+       "enKAK1340525_1":"AAG",
+       "root":"TAC"
+      },
+     "75":{
+       "Node27":"AAC",
+       "drXP_024422030_1":"AAC",
+       "enKAK1340525_1":"AAC",
+       "root":"AAT"
+      },
+     "76":{
+       "enKAK1340525_1":"CCT",
+       "root":"TCT"
+      },
+     "77":{
+       "root":"GGG"
+      },
+     "78":{
+       "enKAK1340525_1":"GAG",
+       "root":"GAT"
+      },
+     "79":{
+       "enKAK1340525_1":"GCC",
+       "pnCAK6435619_1":"GAT",
+       "root":"GAC"
+      },
+     "8":{
+       "enKAK1340525_1":"CTC",
+       "root":"TTG"
+      },
+     "80":{
+       "Node22":"TTG",
+       "enKAK1340525_1":"CTG",
+       "root":"CTG"
+      },
+     "81":{
+       "root":"GAC"
+      },
+     "82":{
+       "enKAK1340525_1":"AGG",
+       "root":"CGA"
+      },
+     "83":{
+       "root":"GCC"
+      },
+     "84":{
+       "root":"ATT"
+      },
+     "85":{
+       "Node14":"GAA",
+       "Node4":"GAA",
+       "root":"GAG"
+      },
+     "86":{
+       "root":"GAG"
+      },
+     "87":{
+       "enKAK1340525_1":"TTC",
+       "root":"TTT"
+      },
+     "88":{
+       "root":"ACC"
+      },
+     "89":{
+       "ajXP_053525174_1":"TTG",
+       "enKAK1340525_1":"CTC",
+       "pnCAK6435619_1":"CTA",
+       "root":"CTG"
+      },
+     "9":{
+       "root":"ATG"
+      },
+     "90":{
+       "root":"TCC"
+      },
+     "91":{
+       "enKAK1340525_1":"TGC",
+       "root":"TGT"
+      },
+     "92":{
+       "rfXP_032988607_1":"GCC",
+       "root":"GCT"
+      },
+     "93":{
+       "root":"GGC"
+      },
+     "94":{
+       "mdXP_059519792_1":"TCC",
+       "root":"TAC"
+      },
+     "95":{
+       "root":"TGT"
+      },
+     "96":{
+       "enKAK1340525_1":"GTG",
+       "root":"GTA"
+      },
+     "97":{
+       "enKAK1340525_1":"GCC",
+       "root":"GCT"
+      },
+     "98":{
+       "drXP_024422030_1":"TCC",
+       "enKAK1340525_1":"ACC",
+       "root":"TCT"
+      },
+     "99":{
+       "enKAK1340525_1":"TAC",
+       "root":"TAT"
+      }
+    }
+  },
+ "test results":{
+   "P-value threshold":0.05,
+   "positive test results":0,
+   "tested":30
+  },
+ "tested":{
+   "0":{
+     "Node10":"test",
+     "Node13":"test",
+     "Node14":"test",
+     "Node16":"test",
+     "Node20":"test",
+     "Node22":"test",
+     "Node23":"test",
+     "Node27":"test",
+     "Node3":"test",
+     "Node30":"test",
+     "Node31":"test",
+     "Node4":"test",
+     "ajXP_053525174_1":"test",
+     "drXP_024422030_1":"test",
+     "enKAK1340525_1":"test",
+     "mbXP_005863584_1":"test",
+     "mdXP_059519792_1":"test",
+     "mlXP_023605350_1":"test",
+     "mmXP_036188305_1":"test",
+     "moXP_036122093_1":"test",
+     "paXP_024899357_1":"test",
+     "pdXP_035886609_1":"test",
+     "pgXP_039693214_1":"test",
+     "phXP_045712899_1":"test",
+     "pkXP_045435202_1":"test",
+     "pnCAK6435619_1":"test",
+     "pvXP_011383339_1":"test",
+     "raXP_016006690_1":"test",
+     "rfXP_032988607_1":"test",
+     "sbXP_066100663_1":"test"
+    }
+  },
+ "timers":{
+   "Baseline model fitting":{
+     "order":2,
+     "timer":1
+    },
+   "Complexity analysis":{
+     "order":3,
+     "timer":11
+    },
+   "Full adaptive model fitting":{
+     "order":4,
+     "timer":1
+    },
+   "Overall":{
+     "order":0,
+     "timer":15
+    },
+   "Preliminary model fitting":{
+     "order":1,
+     "timer":0
+    },
+   "Testing for selection":{
+     "order":5,
+     "timer":2
+    }
+  }
+}

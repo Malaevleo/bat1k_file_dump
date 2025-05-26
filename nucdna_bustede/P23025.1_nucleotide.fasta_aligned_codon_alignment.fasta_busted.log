@@ -1,0 +1,97 @@
+
+Analysis Description
+--------------------
+BUSTED (branch-site unrestricted statistical test of episodic
+diversification) uses a random effects branch-site model fitted jointly
+to all or a subset of tree branches in order to test for alignment-wide
+evidence of episodic diversifying selection. Assuming there is evidence
+of positive selection (i.e. there is an omega > 1), BUSTED will also
+perform a quick evidence-ratio style analysis to explore which
+individual sites may have been subject to selection. v2.0 adds support
+for synonymous rate variation, and relaxes the test statistic to 0.5
+(chi^2_0 + chi^2_2). Version 2.1 adds a grid search for the initial
+starting point. Version 2.2 changes the grid search to LHC, and adds an
+initial search phase to use adaptive Nedler-Mead. Version 3.0 implements
+the option for branch-site variation in synonymous substitution rates.
+Version 3.1 adds HMM auto-correlation option for SRV, and binds SRV
+distributions for multiple branch sets. Version 4.0 adds support for
+multiple hits (MH), ancestral state reconstruction saved to JSON, and
+profiling of branch-site level support for selection / multiple hits.
+Version 4.2 adds calculation of MH-attributable fractions of
+substitutions. Version 4.5 adds an 'error absorption' component
+[experimental] 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree (optionally annotated
+with {})
+
+- __Citation__: *Gene-wide identification of episodic selection*, Mol Biol Evol.
+32(5):1365-71, *Synonymous Site-to-Site Substitution Rate Variation
+Dramatically Inflates False Positive Rates of Selection Analyses: Ignore
+at Your Own Peril*, Mol Biol Evol. 37(8):2430-2439
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 4.5
+
+
+>code => Universal
+
+-------
+>[WARNING]
+'/home/malaevleo/nucdna_pal2nal/P23025.1_nucleotide.fasta_aligned_codon_alignment.fasta'
+contains 1 duplicate sequence. Identical sequences do not contribute any
+information to the analysis and only slow down computation. Please
+consider removing duplicate or 'nearly' duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+/home/malaevleo/nucdna_trees/P23025.1_nucleotide.fasta_aligned_codon_alignment.fasta_pruned.nwk
+nucdna_trees/P23025.1_nucleotide.fasta_aligned_codon_alignment.fasta_pruned.nwk
+
+>Loaded a multiple sequence alignment with **17** sequences, **215** codons, and **1** partitions from `/home/malaevleo/nucdna_pal2nal/P23025.1_nucleotide.fasta_aligned_codon_alignment.fasta`
+
+>branches => Foreground
+
+>srv => Yes
+The number omega rate classes to include in the model (permissible range = [1,10], default value = 3, integer): 
+>rates => 3
+
+>multiple-hits => None
+The number alpha rate classes to include in the model [1-10, default 3] (permissible range = [1,10], default value = 3, integer): 
+>syn-rates => 3
+
+>error-sink => Yes
+The number of points in the initial distributional guess for likelihood fitting (permissible range = [1,10000], default value = 250, integer): 
+>grid-size => 250
+The number of initial random guesses to 'seed' rate values optimization (permissible range = [1,25], default value = 1, integer): 
+>starting-points => 1
+
+
+### Branches to test for selection in the BUSTED analysis
+* Selected 6 branches to test in the BUSTED analysis: `rfXP_032978402_1, drXP_053778446_1, mbXP_005870698_1, mlXP_014317909_1, mdXP_059513423_1, mmXP_036186186_1`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+Error:
+Internal error 
+Internal error in ComputeBranchCache (branch IyqkZ_gH.tree_0.pgXP_039712225_1, eval #728 ) reversible model cached likelihood =   -3046.641673934202, directly computed likelihood =   -3046.642360366296. This is most likely because a non-reversible model was incorrectly auto-detected (or specified by the model file in environment variables; for smaller errors, this could be due to numerical instability of calculations for larger alignments). To treat numerical errors as warnings, please specify "ENV=TOLERATE_NUMERICAL_ERRORS=1;" as the command line argument. This often resolves the issue, which is indicative of numerical instability.
+
+Function call stack
+1 :  [namespace = IyqkZ_gH] Optimize(mles, likelihoodFunction);
+-------
+2 :  [namespace = xdPsGjwz] return estimators.FitSingleModel_Ext(data_filter,tree,"models.DNA.GTR.ModelDescription",initial_values,run_options);
+-------
+3 :  [namespace = UkjSrXxj] return estimators.FitGTR_Ext(data_filter,tree,initial_values,{});
+-------
+4 :  [namespace = busted] gtr_results=estimators.FitGTR(filter_names,trees,gtr_results);
+-------
+5 :  [namespace = busted] doGTR("busted");
+-------
+6 :  namespace 
+
+Step 0.doGTR("busted");;
+-------
+
+Check errors.log for execution error details.

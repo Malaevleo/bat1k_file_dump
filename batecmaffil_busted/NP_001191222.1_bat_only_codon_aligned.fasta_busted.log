@@ -1,0 +1,89 @@
+
+Analysis Description
+--------------------
+BUSTED (branch-site unrestricted statistical test of episodic
+diversification) uses a random effects branch-site model fitted jointly
+to all or a subset of tree branches in order to test for alignment-wide
+evidence of episodic diversifying selection. Assuming there is evidence
+of positive selection (i.e. there is an omega > 1), BUSTED will also
+perform a quick evidence-ratio style analysis to explore which
+individual sites may have been subject to selection. v2.0 adds support
+for synonymous rate variation, and relaxes the test statistic to 0.5
+(chi^2_0 + chi^2_2). Version 2.1 adds a grid search for the initial
+starting point. Version 2.2 changes the grid search to LHC, and adds an
+initial search phase to use adaptive Nedler-Mead. Version 3.0 implements
+the option for branch-site variation in synonymous substitution rates.
+Version 3.1 adds HMM auto-correlation option for SRV, and binds SRV
+distributions for multiple branch sets. Version 4.0 adds support for
+multiple hits (MH), ancestral state reconstruction saved to JSON, and
+profiling of branch-site level support for selection / multiple hits.
+Version 4.2 adds calculation of MH-attributable fractions of
+substitutions. Version 4.5 adds an 'error absorption' component
+[experimental] 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree (optionally annotated
+with {})
+
+- __Citation__: *Gene-wide identification of episodic selection*, Mol Biol Evol.
+32(5):1365-71, *Synonymous Site-to-Site Substitution Rate Variation
+Dramatically Inflates False Positive Rates of Selection Analyses: Ignore
+at Your Own Peril*, Mol Biol Evol. 37(8):2430-2439
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 4.5
+
+
+>code => Universal
+/home/malaevleo/batecmaffil_trees/NP_001191222.1_bat_only_codon_aligned.fasta_pruned.nwk
+batecmaffil_trees/NP_001191222.1_bat_only_codon_aligned.fasta_pruned.nwk
+
+>Loaded a multiple sequence alignment with **5** sequences, **323** codons, and **1** partitions from `/home/malaevleo/batecmaffil_pal2nal/NP_001191222.1_bat_only_codon_aligned.fasta`
+
+>branches => Foreground
+Error:
+'Foreground' is not a valid choice passed to 'Choose the set of branches to test for selection' ChoiceList using redirected stdin input or keyword arguments. Valid choices are
+	All, Internal, Leaves, Background
+ in call to ChoiceList(testSet, "Choose the set of branches to test for selection", 1, NO_SKIP, selectTheseForTesting);
+
+Function call stack
+1 :  [namespace = ibjMPLxb] ChoiceList(testSet, "Choose the set of branches to test for selection", 1, NO_SKIP, selectTheseForTesting);
+
+	Keyword arguments:
+		{
+		 "error-sink":"Yes",
+		 "output":"batecmaffil_bustede1/NP_001191222.1_bat_only_codon_aligned.fasta_busted.json"
+		}
+-------
+2 :  [namespace = busted] selected_branches=selection.io.defineBranchSets(partitions_and_trees);
+
+	Keyword arguments:
+		{
+		 "error-sink":"Yes",
+		 "output":"batecmaffil_bustede1/NP_001191222.1_bat_only_codon_aligned.fasta_busted.json"
+		}
+-------
+3 :  [namespace = busted] load_file("busted");
+
+	Keyword arguments:
+		{
+		 "error-sink":"Yes",
+		 "output":"batecmaffil_bustede1/NP_001191222.1_bat_only_codon_aligned.fasta_busted.json"
+		}
+-------
+4 :  namespace 
+
+Step 0.LoadFunctionLibrary("modules/shared-load-file.bf", /usr/local/share/hyphy/TemplateBatchFiles/SelectionAnalyses/);
+
+Step 1.load_file("busted");;
+
+	Keyword arguments:
+		{
+		 "error-sink":"Yes",
+		 "output":"batecmaffil_bustede1/NP_001191222.1_bat_only_codon_aligned.fasta_busted.json"
+		}
+-------
+
+Check errors.log for execution error details.

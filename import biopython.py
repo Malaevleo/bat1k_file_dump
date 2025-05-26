@@ -1,4 +1,4 @@
-import biopython
+import Bio
 from Bio import Entrez
 
 Entrez.email = "malaevleo@mail.ru"

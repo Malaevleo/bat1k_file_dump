@@ -1,0 +1,145 @@
+
+Analysis Description
+--------------------
+BUSTED (branch-site unrestricted statistical test of episodic
+diversification) uses a random effects branch-site model fitted jointly
+to all or a subset of tree branches in order to test for alignment-wide
+evidence of episodic diversifying selection. Assuming there is evidence
+of positive selection (i.e. there is an omega > 1), BUSTED will also
+perform a quick evidence-ratio style analysis to explore which
+individual sites may have been subject to selection. v2.0 adds support
+for synonymous rate variation, and relaxes the test statistic to 0.5
+(chi^2_0 + chi^2_2). Version 2.1 adds a grid search for the initial
+starting point. Version 2.2 changes the grid search to LHC, and adds an
+initial search phase to use adaptive Nedler-Mead. Version 3.0 implements
+the option for branch-site variation in synonymous substitution rates.
+Version 3.1 adds HMM auto-correlation option for SRV, and binds SRV
+distributions for multiple branch sets. Version 4.0 adds support for
+multiple hits (MH), ancestral state reconstruction saved to JSON, and
+profiling of branch-site level support for selection / multiple hits.
+Version 4.2 adds calculation of MH-attributable fractions of
+substitutions. Version 4.5 adds an 'error absorption' component
+[experimental] 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree (optionally annotated
+with {})
+
+- __Citation__: *Gene-wide identification of episodic selection*, Mol Biol Evol.
+32(5):1365-71, *Synonymous Site-to-Site Substitution Rate Variation
+Dramatically Inflates False Positive Rates of Selection Analyses: Ignore
+at Your Own Peril*, Mol Biol Evol. 37(8):2430-2439
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 4.5
+
+
+>code => Universal
+
+-------
+>[WARNING]
+'/home/malaevleo/uncat_pal2nal/Q6UWS5.1_nucleotide.fasta_aligned_codon_alignment.fasta'
+contains 2 duplicate sequences. Identical sequences do not contribute
+any information to the analysis and only slow down computation. Please
+consider removing duplicate or 'nearly' duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+/home/malaevleo/uncat_trees/Q6UWS5.1_nucleotide.fasta_aligned_codon_alignment.fasta_pruned.nwk
+uncat_trees/Q6UWS5.1_nucleotide.fasta_aligned_codon_alignment.fasta_pruned.nwk
+
+>Loaded a multiple sequence alignment with **16** sequences, **78** codons, and **1** partitions from `/home/malaevleo/uncat_pal2nal/Q6UWS5.1_nucleotide.fasta_aligned_codon_alignment.fasta`
+
+>branches => Foreground
+
+>srv => Yes
+The number omega rate classes to include in the model (permissible range = [1,10], default value = 3, integer): 
+>rates => 3
+
+>multiple-hits => None
+The number alpha rate classes to include in the model [1-10, default 3] (permissible range = [1,10], default value = 3, integer): 
+>syn-rates => 3
+
+>error-sink => Yes
+The number of points in the initial distributional guess for likelihood fitting (permissible range = [1,10000], default value = 250, integer): 
+>grid-size => 250
+The number of initial random guesses to 'seed' rate values optimization (permissible range = [1,25], default value = 1, integer): 
+>starting-points => 1
+
+
+### Branches to test for selection in the BUSTED analysis
+* Selected 5 branches to test in the BUSTED analysis: `rfXP_032950779_1, drXP_024415200_1, mlXP_006088049_2, mdXP_059561445_1, mmXP_036177910_1`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths => Yes
+
+### Deleted 5 zero-length internal branches: `Myobl, Phyllostomus, Pteropusgv, Yangochiroptera, YangochiropteraAfterSaccopteryx`
+* Log(L) =  -751.44, AIC-c =  1579.68 (38 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.374
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) =  -724.87, AIC-c =  1534.60 (41 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.376
+* non-synonymous/synonymous rate ratio for *background* =   0.3927
+* non-synonymous/synonymous rate ratio for *test* =   0.2632
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) =  -724.35, AIC-c =  1533.55 (41 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   0.4024
+* non-synonymous/synonymous rate ratio for *test* =   0.2074
+
+### Performing the full (dN/dS > 1 allowed) branch-site model fit
+* Log(L) =  -710.00, AIC-c =  1541.75 (58 estimated parameters)
+* For *test* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.129     |   57.894    |                                   |
+|        Negative selection         |     0.248     |   41.105    |                                   |
+|      Diversifying selection       |     5.210     |    1.001    |                                   |
+|         Error absorption          |    107.039    |    0.000    |       Not supported by data       |
+
+* For *background* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.000     |   27.392    |                                   |
+|        Negative selection         |     0.497     |   72.608    |                                   |
+|      Diversifying selection       |     4.744     |    0.000    |       Not supported by data       |
+|         Error absorption          |    107.974    |    0.000    |       Not supported by data       |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.472               |    72.031     |                                   |
+|               0.473               |    10.218     |       Collapsed rate class        |
+|               3.448               |    17.750     |                                   |
+
+
+### Performing the constrained (dN/dS > 1 not allowed) model fit
+* Log(L) =  -710.00, AIC-c =  1539.56 (57 estimated parameters)
+* For *test* branches under the null (no dN/dS > 1 model), the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.169     |   59.482    |                                   |
+|        Negative selection         |     0.260     |   40.518    |                                   |
+|         Neutral evolution         |     1.000     |    0.000    |       Not supported by data       |
+|         Error absorption          |    219.124    |    0.000    |       Not supported by data       |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.473               |    71.959     |                                   |
+|               0.474               |    10.255     |       Collapsed rate class        |
+|               3.437               |    17.786     |                                   |
+
+----
+## Branch-site unrestricted statistical test of episodic diversification [BUSTED]
+Likelihood ratio test for episodic diversifying positive selection, **p =   0.4989**.

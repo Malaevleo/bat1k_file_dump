@@ -1,0 +1,1077 @@
+{
+ "Evidence Ratios":{
+  },
+ "Site Log Likelihood":{
+   "unconstrained":    [
+[-26.90837611666652, -42.77091101352629, -9.916405764869651, -9.972006606919315, -13.80814462060561, -19.7937398953522, -11.57037179875086, -18.55350189056254, -5.524475694160334, -17.24156278020006, -14.91693359755195, -12.52335537630701, -35.50447996057432, -29.72599694101003, -37.98198122249932, -22.21247525510815, -21.04916762590485, -9.583182508442425, -8.938909772180248, -23.94586143660955, -14.30323121329116, -10.53980276231662, -26.78487745806469, -18.69770109389519, -10.54098820097442, -17.09531790210798, -14.03757845093478, -4.167557950085573, -8.955814451210825, -15.55219653835036, -23.89945632497587, -20.8999996955645, -30.40001136388037, -18.35169741492611, -18.63431296051197, -32.44117680336171, -19.90743367608933, -32.35834070880195, -4.167557950085573, -5.360362740328013, -7.204371894275435, -11.57208677905937, -31.23292396630775, -14.19100524830627, -36.86838826314845, -5.873792032215513, -29.66941721286949, -17.09304443060143, -11.73588054359732, -12.82426925034571, -24.19065696950582, -12.02927597237364, -16.06958068922201, -5.524475694160334, -4.167557950085573, -19.81803135595248, -24.05432467041137, -15.09320996925588, -18.54387033379899, -6.678526076363915, -4.295275519731624, -9.079484121265242, -15.99045208500871, -13.60557848576339, -21.49021151900147, -27.23114345834176, -21.87182571470699, -26.11945817778312, -39.41527029434236, -33.67044957445248, -21.63717325570543, -14.01829681677721, -22.01748204624974, -35.43662316142595, -4.167557950085573, -11.66261154600547, -18.76993603749828, -9.467952137517957, -14.81455580541022, -20.33346430371473, -10.6645684124695, -20.71832062857928, -5.558854539803954, -23.97977049912433, -33.94957861526925, -23.21727994055548, -18.59344715971033, -4.167557950085573, -14.50853712037879, -19.50638836780512, -11.1113535264369] 
+    ]
+  },
+ "Synonymous site-posteriors":  [
+[0.3441419144860385, 0.005019105282821889, 0.9704233740531903, 0.8845787068014013, 0.6151843321943559, 0.6921696556302289, 0.8177681048525112, 0.914998502470489, 0.9456744215012094, 0.5697666091925492, 0.6018045542083701, 0.8297979527391754, 0.01844394883262907, 0.1046979685892624, 0.05527377893799115, 0.2090046672791674, 0.200195785016726, 0.9213147392088928, 0.8514658704794691, 0.5312771123703043, 0.7269085504914075, 0.8830376144216052, 0.3340544924664741, 0.8390450687374381, 0.8185018632229566, 0.7168787775168113, 0.7973663260055378, 0.8106595435051674, 0.8667652303409008, 0.7146612156551706, 0.1505589119569435, 0.5126640947435764, 0.07404612004312054, 0.9108514385396371, 0.1752532194716687, 0.08454055730797665, 0.6876480810295879, 0.01774705759228632, 0.8106595435051674, 0.951701850914864, 0.8076051038966666, 0.69990976104109, 0.1438338228288269, 0.7288701933934253, 0.04775845396075969, 0.9619859154644017, 0.03995405612511827, 0.9059353154147837, 0.8247251196770303, 0.7280083081010305, 0.5532391715044385, 0.8624454148177378, 0.9641203899447114, 0.9456744215012094, 0.8106595435051674, 0.2776758518813038, 0.7123189344860099, 0.9855255806207702, 0.6389287896213909, 0.9752865239696606, 0.9183441940317869, 0.6611187706837984, 0.7590485409232672, 0.7139836852214083, 0.841009070929811, 0.1352282479092787, 0.2760112919726207, 0.4612190340236411, 0.002535417260584777, 0.3409707296608431, 0.76927201654501, 0.9038949631975035, 0.2023235092893152, 0.04721741653411318, 0.8106595435051674, 0.8401905065562103, 0.4427386404507037, 0.998604303943997, 0.9238786334797946, 0.4092772706699467, 0.8973702689856872, 0.1695199757015781, 0.9619905273460501, 0.2508094790331631, 0.06482644066633722, 0.1236297325771927, 0.8176332104810972, 0.8106595435051674, 0.8441978100198348, 0.3872206375764499, 0.7570753123939307],
+  [0.6558580855139614, 0.9949808947171782, 0.02957662594680964, 0.1154212931985986, 0.3848156678056442, 0.307830344369771, 0.1822318951474889, 0.08500149752951094, 0.05432557849879066, 0.4302333908074508, 0.3981954457916299, 0.1702020472608245, 0.981556051167371, 0.8953020314107376, 0.9447262210620089, 0.7909953327208327, 0.799804214983274, 0.07868526079110708, 0.1485341295205307, 0.4687228876296957, 0.2730914495085924, 0.1169623855783947, 0.665945507533526, 0.1609549312625618, 0.1814981367770434, 0.2831212224831887, 0.2026336739944623, 0.1893404564948327, 0.1332347696590993, 0.2853387843448295, 0.8494410880430564, 0.4873359052564235, 0.9259538799568794, 0.08914856146036282, 0.8247467805283314, 0.9154594426920233, 0.312351918970412, 0.9822529424077137, 0.1893404564948327, 0.04829814908513589, 0.1923948961033334, 0.3000902389589099, 0.856166177171173, 0.2711298066065748, 0.9522415460392403, 0.03801408453559822, 0.9600459438748817, 0.09406468458521638, 0.1752748803229698, 0.2719916918989695, 0.4467608284955615, 0.1375545851822622, 0.03587961005528878, 0.05432557849879066, 0.1893404564948327, 0.7223241481186962, 0.2876810655139901, 0.01447441937922981, 0.3610712103786091, 0.0247134760303394, 0.08165580596821313, 0.3388812293162015, 0.2409514590767328, 0.2860163147785916, 0.1589909290701888, 0.8647717520907212, 0.7239887080273794, 0.5387809659763587, 0.9974645827394151, 0.6590292703391568, 0.2307279834549899, 0.09610503680249666, 0.7976764907106849, 0.9527825834658868, 0.1893404564948327, 0.1598094934437898, 0.5572613595492963, 0.001395696056002869, 0.07612136652020547, 0.5907227293300533, 0.102629731014313, 0.8304800242984219, 0.03800947265395006, 0.7491905209668368, 0.9351735593336629, 0.8763702674228073, 0.1823667895189027, 0.1893404564948327, 0.1558021899801651, 0.6127793624235501, 0.2429246876060694],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] 
+  ],
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond",
+   "citation":"*Gene-wide identification of episodic selection*, Mol Biol Evol. 32(5):1365-71, *Synonymous Site-to-Site Substitution Rate Variation Dramatically Inflates False Positive Rates of Selection Analyses: Ignore at Your Own Peril*, Mol Biol Evol. 37(8):2430-2439",
+   "contact":"spond@temple.edu",
+   "info":"BUSTED (branch-site unrestricted statistical test of episodic diversification) uses a random effects branch-site model fitted  jointly to all or a subset of tree branches in order to test for alignment-wide evidence of episodic diversifying selection. Assuming there is evidence of positive selection (i.e. there is an omega > 1),  BUSTED will also perform a quick evidence-ratio style analysis to explore which individual sites may have been subject to selection. v2.0 adds support for synonymous rate variation, and relaxes the test statistic to 0.5 (chi^2_0 + chi^2_2).\n                               \nVersion 2.1 adds a grid search for the initial starting point.\n\nVersion 2.2 changes the grid search to LHC, and adds an initial search phase to use adaptive Nedler-Mead. \n\nVersion 3.0 implements the option for branch-site variation in synonymous substitution rates. \n\nVersion 3.1 adds HMM auto-correlation option for SRV, and binds SRV distributions for multiple branch sets.\n\nVersion 4.0 adds support for multiple hits (MH), ancestral state reconstruction saved to JSON, and profiling of branch-site level support for selection / multiple hits.\n\nVersion 4.2 adds calculation of MH-attributable fractions of substitutions.\n\nVersion 4.5 adds an 'error absorption' component [experimental]\n",
+   "requirements":"in-frame codon alignment and a phylogenetic tree (optionally annotated with {})",
+   "settings":{
+     "error-sink":1,
+     "multiple-hit":"None",
+     "srv":"Yes"
+    },
+   "version":"4.5"
+  },
+ "background":1,
+ "branch attributes":{
+   "0":{
+     "AjPh":{
+       "MG94xREV with separate rates for branch sets":0.03680628333923986,
+       "Nucleotide GTR":0.03512647137527328,
+       "Posterior prob omega class":null,
+       "unconstrained":0.04235135616770085
+      },
+     "MolossusPhyllostomus":{
+       "MG94xREV with separate rates for branch sets":0.1099397186914375,
+       "Nucleotide GTR":0.09673618012933115,
+       "Posterior prob omega class":null,
+       "unconstrained":0.131621838452557
+      },
+     "Myobl":{
+       "MG94xREV with separate rates for branch sets":0.007534624566415782,
+       "Nucleotide GTR":0.007394011982184022,
+       "Posterior prob omega class":null,
+       "unconstrained":0.007959327005831414
+      },
+     "Myodm":{
+       "MG94xREV with separate rates for branch sets":0.02363057459251488,
+       "Nucleotide GTR":0.02268017862881529,
+       "Posterior prob omega class":null,
+       "unconstrained":0.02348044316295839
+      },
+     "Myotis":{
+       "MG94xREV with separate rates for branch sets":0.04719232943785403,
+       "Nucleotide GTR":0.04345745145829838,
+       "Posterior prob omega class":null,
+       "unconstrained":0.04511477427484609
+      },
+     "Phyllostomidae":{
+       "MG94xREV with separate rates for branch sets":0.04080608544166629,
+       "Nucleotide GTR":0.04018340681567521,
+       "Posterior prob omega class":null,
+       "unconstrained":0.04413406088299848
+      },
+     "Phyllostomus":{
+       "MG94xREV with separate rates for branch sets":0.04043438974690516,
+       "Nucleotide GTR":0.03879934489682135,
+       "Posterior prob omega class":null,
+       "unconstrained":0.04172187354001688
+      },
+     "Pipistrellus":{
+       "MG94xREV with separate rates for branch sets":0.1233934762041796,
+       "Nucleotide GTR":0.1037256947322388,
+       "Posterior prob omega class":null,
+       "unconstrained":0.1514011744645082
+      },
+     "Pteropodidae":{
+       "MG94xREV with separate rates for branch sets":0.1022516898074426,
+       "Nucleotide GTR":0.09067733343096257,
+       "Posterior prob omega class":null,
+       "unconstrained":0.1115867604843748
+      },
+     "Pteropus":{
+       "MG94xREV with separate rates for branch sets":0.05588644623279299,
+       "Nucleotide GTR":0.05390567631535792,
+       "Posterior prob omega class":null,
+       "unconstrained":0.05933823714536377
+      },
+     "Yangochiroptera":{
+       "MG94xREV with separate rates for branch sets":0.02260841833978571,
+       "Nucleotide GTR":0.02119042321591832,
+       "Posterior prob omega class":null,
+       "unconstrained":0.02434620670984083
+      },
+     "YangochiropteraAfterSaccopteryx":{
+       "MG94xREV with separate rates for branch sets":0.02238965237513191,
+       "Nucleotide GTR":0.03085863346007062,
+       "Posterior prob omega class":null,
+       "unconstrained":0.02183898309834825
+      },
+     "ajXP_053524556_1":{
+       "MG94xREV with separate rates for branch sets":0.08518947227000377,
+       "Nucleotide GTR":0.07811544818583635,
+       "Posterior prob omega class":null,
+       "original name":"ajXP_053524556.1",
+       "unconstrained":0.08944113233250597
+      },
+     "drXP_053771838_1":{
+       "MG94xREV with separate rates for branch sets":0.06257626273491189,
+       "Nucleotide GTR":0.06275388398987214,
+       "Posterior prob omega class":        [
+[0],
+        [1],
+        [0],
+        [0] 
+        ],
+       "Posterior prob omega class by site":        [
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] 
+        ],
+       "original name":"drXP_053771838.1",
+       "unconstrained":0.06373240470819094
+      },
+     "mbXP_005879641_1":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "Posterior prob omega class":        [
+[0],
+        [1],
+        [0],
+        [0] 
+        ],
+       "Posterior prob omega class by site":        [
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] 
+        ],
+       "original name":"mbXP_005879641.1",
+       "unconstrained":0
+      },
+     "mdXP_059521474_1":{
+       "MG94xREV with separate rates for branch sets":0.01158940455364273,
+       "Nucleotide GTR":0.01113184123116723,
+       "Posterior prob omega class":        [
+[0],
+        [1],
+        [0],
+        [0] 
+        ],
+       "Posterior prob omega class by site":        [
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] 
+        ],
+       "original name":"mdXP_059521474.1",
+       "unconstrained":0.01176742905711686
+      },
+     "mlXP_023604544_1":{
+       "MG94xREV with separate rates for branch sets":0.01515094941245349,
+       "Nucleotide GTR":0.01482894717979449,
+       "Posterior prob omega class":        [
+[0],
+        [1],
+        [0],
+        [0] 
+        ],
+       "Posterior prob omega class by site":        [
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] 
+        ],
+       "original name":"mlXP_023604544.1",
+       "unconstrained":0.01524037098402637
+      },
+     "mmXP_036167419_1":{
+       "MG94xREV with separate rates for branch sets":0.00705519958415482,
+       "Nucleotide GTR":0.007287933545797085,
+       "Posterior prob omega class":        [
+[0],
+        [1],
+        [0],
+        [0] 
+        ],
+       "Posterior prob omega class by site":        [
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] 
+        ],
+       "original name":"mmXP_036167419.1",
+       "unconstrained":0.006863973306095876
+      },
+     "paXP_015447243_1":{
+       "MG94xREV with separate rates for branch sets":0.007302113129876413,
+       "Nucleotide GTR":0.007390331480132815,
+       "Posterior prob omega class":null,
+       "original name":"paXP_015447243.1",
+       "unconstrained":0.007369467992082305
+      },
+     "pdXP_035868745_1":{
+       "MG94xREV with separate rates for branch sets":0.03578541736720569,
+       "Nucleotide GTR":0.03422727131486789,
+       "Posterior prob omega class":null,
+       "original name":"pdXP_035868745.1",
+       "unconstrained":0.03592050677778812
+      },
+     "pgXP_039724552_1":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "Posterior prob omega class":null,
+       "original name":"pgXP_039724552.1",
+       "unconstrained":0
+      },
+     "phXP_045712170_1":{
+       "MG94xREV with separate rates for branch sets":0.01403709500058719,
+       "Nucleotide GTR":0.01475019893930658,
+       "Posterior prob omega class":null,
+       "original name":"phXP_045712170.1",
+       "unconstrained":0.01343105163587657
+      },
+     "pkXP_036288527_1":{
+       "MG94xREV with separate rates for branch sets":0.03943245550992872,
+       "Nucleotide GTR":0.03345004301600191,
+       "Posterior prob omega class":null,
+       "original name":"pkXP_036288527.1",
+       "unconstrained":0.03792135063708532
+      },
+     "pnCAK6437274_1":{
+       "MG94xREV with separate rates for branch sets":0.01981058847237652,
+       "Nucleotide GTR":0.01987450531338224,
+       "Posterior prob omega class":null,
+       "original name":"pnCAK6437274.1",
+       "unconstrained":0.02046671985283399
+      },
+     "pvXP_023377897_1":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "Posterior prob omega class":null,
+       "original name":"pvXP_023377897.1",
+       "unconstrained":0
+      },
+     "raXP_016010790_2":{
+       "MG94xREV with separate rates for branch sets":0.05509695410491689,
+       "Nucleotide GTR":0.05549277880268788,
+       "Posterior prob omega class":null,
+       "original name":"raXP_016010790.2",
+       "unconstrained":0.05578872101101993
+      },
+     "rfXP_032985161_1":{
+       "MG94xREV with separate rates for branch sets":0.1205809897222434,
+       "Nucleotide GTR":0.1230797679306342,
+       "Posterior prob omega class":        [
+[0],
+        [1],
+        [0],
+        [0] 
+        ],
+       "Posterior prob omega class by site":        [
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] 
+        ],
+       "original name":"rfXP_032985161.1",
+       "unconstrained":0.1263595144732408
+      },
+     "sbXP_066121392_1":{
+       "MG94xREV with separate rates for branch sets":0.1237680215142444,
+       "Nucleotide GTR":0.1155309378436924,
+       "Posterior prob omega class":null,
+       "original name":"sbXP_066121392.1",
+       "unconstrained":0.1390317008810702
+      }
+    },
+   "attributes":{
+     "MG94xREV with separate rates for branch sets":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Posterior prob omega class":{
+       "attribute type":"branch annotations",
+       "display order":4
+      },
+     "Posterior prob omega class by site":{
+       "attribute type":"branch annotations",
+       "display order":5
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":0
+      },
+     "unconstrained":{
+       "attribute type":"branch length",
+       "display order":0
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90] 
+      ],
+     "name":"busted.filter.default"
+    }
+  },
+ "fits":{
+   "MG94xREV with separate rates for branch sets":{
+     "AIC-c":3386.406244513531,
+     "Equilibrium frequencies":      [
+[0.02421892199734273],
+      [0.0468876771342181],
+      [0.04466190731454248],
+      [0.01905630167109372],
+      [0.006461708144084663],
+      [0.0125098253848223],
+      [0.01191598082922095],
+      [0.005084299776751035],
+      [0.01268288604484342],
+      [0.02455398576641625],
+      [0.0233884018899706],
+      [0.009979341878105006],
+      [0.009803782683535663],
+      [0.01898006018641513],
+      [0.01807907195836492],
+      [0.007713961849986481],
+      [0.008375323060105799],
+      [0.0162145715478211],
+      [0.01544486176060341],
+      [0.006589999457604068],
+      [0.002234570689511431],
+      [0.004326114475074271],
+      [0.004120752733490894],
+      [0.001758238998803738],
+      [0.00438596185130477],
+      [0.008491193919759886],
+      [0.008088114809964913],
+      [0.003451029412685778],
+      [0.003390317999896573],
+      [0.006563633830561078],
+      [0.006252056482729462],
+      [0.002667621728748156],
+      [0.01753480262739673],
+      [0.03394726504738006],
+      [0.03233577984228668],
+      [0.01379700090067679],
+      [0.004678357564998072],
+      [0.009057270139856922],
+      [0.008627319249599861],
+      [0.003681096668696828],
+      [0.009182568223577181],
+      [0.01777739298954994],
+      [0.01693349567564832],
+      [0.00722516841183456],
+      [0.007098061357832076],
+      [0.01374180111160256],
+      [0.01308947435857029],
+      [0.005585004920104286],
+      [0.0847104724227995],
+      [0.03442841308962302],
+      [0.01167416223193951],
+      [0.02260110295593338],
+      [0.02152822291739579],
+      [0.009185642419325547],
+      [0.04436090378676212],
+      [0.04225508053304303],
+      [0.01802935902631807],
+      [0.01771218182285874],
+      [0.03429067002833101],
+      [0.03266288330247048],
+      [0.01393656910521004] 
+      ],
+     "Log Likelihood":-1647.799862157545,
+     "Rate Distributions":{
+       "non-synonymous/synonymous rate ratio for *background*":        [
+[0.3810458338874431, 1] 
+        ],
+       "non-synonymous/synonymous rate ratio for *test*":        [
+[0.4777728471476546, 1] 
+        ]
+      },
+     "display order":1,
+     "estimated parameters":44
+    },
+   "Nucleotide GTR":{
+     "AIC-c":3548.870908144585,
+     "Equilibrium frequencies":      [
+[0.2779304029304029],
+      [0.2135989010989011],
+      [0.2548076923076923],
+      [0.2536630036630036] 
+      ],
+     "Log Likelihood":-1736.09311172995,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.4979262943792981,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.2541572687280444,
+       "Substitution rate from nucleotide C to nucleotide G":0.4207896017871994,
+       "Substitution rate from nucleotide C to nucleotide T":1.025102569167195,
+       "Substitution rate from nucleotide G to nucleotide T":0.1665009483390214
+      },
+     "display order":0,
+     "estimated parameters":38
+    },
+   "Unconstrained model":{
+     "AIC-c":3397.510919129021,
+     "Log Likelihood":-1635.042403610421,
+     "Rate Distributions":{
+       "Background":{
+         "0":{
+           "omega":106.9040206543887,
+           "proportion":0
+          },
+         "1":{
+           "omega":0,
+           "proportion":0.557561551587641
+          },
+         "2":{
+           "omega":0.7361782221915688,
+           "proportion":0
+          },
+         "3":{
+           "omega":0.9515429742197909,
+           "proportion":0.442438448412359
+          }
+        },
+       "Synonymous site-to-site rates":{
+         "0":{
+           "proportion":0.5948015683425589,
+           "rate":0.5890955149986338
+          },
+         "1":{
+           "proportion":0.4051984316574411,
+           "rate":1.603177635999411
+          },
+         "2":{
+           "proportion":0,
+           "rate":3.564989250042212
+          }
+        },
+       "Test":{
+         "0":{
+           "omega":108.457770054733,
+           "proportion":0
+          },
+         "1":{
+           "omega":0.4958742066741732,
+           "proportion":1
+          },
+         "2":{
+           "omega":0.3153509775331051,
+           "proportion":0
+          },
+         "3":{
+           "omega":1.172452540933904,
+           "proportion":0
+          }
+        }
+      },
+     "display order":2,
+     "estimated parameters":61
+    }
+  },
+ "input":{
+   "file name":"/home/malaevleo/batglycoprots_pal2nal/NP_001121798.1_bat_only_nucleotide_codon_aligned.fasta",
+   "number of sequences":16,
+   "number of sites":91,
+   "partition count":1,
+   "trees":{
+     "0":"(rfXP_032985161_1,((paXP_015447243_1,pgXP_039724552_1,pvXP_023377897_1)Pteropus,raXP_016010790_2)Pteropodidae,(sbXP_066121392_1,(((ajXP_053524556_1,(phXP_045712170_1,pdXP_035868745_1)Phyllostomus)AjPh,drXP_053771838_1)Phyllostomidae,(((mbXP_005879641_1,mlXP_023604544_1)Myobl,(mdXP_059521474_1,mmXP_036167419_1)Myodm)Myotis,(pkXP_036288527_1,pnCAK6437274_1)Pipistrellus)MolossusPhyllostomus)YangochiropteraAfterSaccopteryx)Yangochiroptera)"
+    }
+  },
+ "runtime":"2.5.63",
+ "substitutions":{
+   "0":{
+     "0":{
+       "Phyllostomus":"CAA",
+       "ajXP_053524556_1":"AGA",
+       "pdXP_035868745_1":"CTA",
+       "rfXP_032985161_1":"GAA",
+       "root":"AAA",
+       "sbXP_066121392_1":"AAG"
+      },
+     "1":{
+       "Phyllostomus":"GGT",
+       "Pipistrellus":"AAG",
+       "ajXP_053524556_1":"AAT",
+       "drXP_053771838_1":"AAT",
+       "paXP_015447243_1":"AAT",
+       "pkXP_036288527_1":"AGG",
+       "raXP_016010790_2":"GTT",
+       "rfXP_032985161_1":"GGT",
+       "root":"GAT",
+       "sbXP_066121392_1":"GGT"
+      },
+     "10":{
+       "AjPh":"TAC",
+       "Pipistrellus":"TTC",
+       "root":"TAT"
+      },
+     "11":{
+       "MolossusPhyllostomus":"AAG",
+       "Phyllostomidae":"AAC",
+       "root":"AAA"
+      },
+     "12":{
+       "Myotis":"GAC",
+       "Phyllostomidae":"AAA",
+       "Pteropus":"GAC",
+       "drXP_053771838_1":"AAG",
+       "pdXP_035868745_1":"AGA",
+       "pkXP_036288527_1":"AAG",
+       "rfXP_032985161_1":"AAT",
+       "root":"AAC",
+       "sbXP_066121392_1":"ACC"
+      },
+     "13":{
+       "Myodm":"AAC",
+       "Myotis":"AGC",
+       "Pteropus":"AGG",
+       "YangochiropteraAfterSaccopteryx":"GGC",
+       "rfXP_032985161_1":"GCA",
+       "root":"GGG"
+      },
+     "14":{
+       "MolossusPhyllostomus":"CTG",
+       "Pteropodidae":"ATT",
+       "drXP_053771838_1":"GTG",
+       "mdXP_059521474_1":"ATG",
+       "pdXP_035868745_1":"GTG",
+       "pkXP_036288527_1":"GTG",
+       "rfXP_032985161_1":"ATA",
+       "root":"ATG"
+      },
+     "15":{
+       "Myodm":"TAC",
+       "Yangochiroptera":"TTC",
+       "rfXP_032985161_1":"CAT",
+       "root":"TAC"
+      },
+     "16":{
+       "YangochiropteraAfterSaccopteryx":"TAC",
+       "ajXP_053524556_1":"TTC",
+       "pdXP_035868745_1":"TAT",
+       "rfXP_032985161_1":"CAT",
+       "root":"TAT"
+      },
+     "17":{
+       "ajXP_053524556_1":"AAC",
+       "root":"GAC"
+      },
+     "18":{
+       "Myotis":"TGT",
+       "root":"TGC"
+      },
+     "19":{
+       "Myodm":"ATC",
+       "Phyllostomidae":"ATC",
+       "pdXP_035868745_1":"GTC",
+       "rfXP_032985161_1":"ATC",
+       "root":"GTC"
+      },
+     "2":{
+       "rfXP_032985161_1":"GAC",
+       "root":"GGC"
+      },
+     "20":{
+       "Phyllostomus":"GAG",
+       "drXP_053771838_1":"AAC",
+       "root":"AAG"
+      },
+     "21":{
+       "Pteropus":"CTC",
+       "root":"TTC"
+      },
+     "22":{
+       "ajXP_053524556_1":"CAG",
+       "pnCAK6437274_1":"CAG",
+       "raXP_016010790_2":"CAG",
+       "root":"AAG",
+       "sbXP_066121392_1":"AAT"
+      },
+     "23":{
+       "ajXP_053524556_1":"TCC",
+       "rfXP_032985161_1":"GCG",
+       "root":"GCC",
+       "sbXP_066121392_1":"GCA"
+      },
+     "24":{
+       "MolossusPhyllostomus":"AAG",
+       "Pteropodidae":"AAG",
+       "root":"AAA"
+      },
+     "25":{
+       "Pteropodidae":"AGC",
+       "rfXP_032985161_1":"CAG",
+       "root":"CAC"
+      },
+     "26":{
+       "ajXP_053524556_1":"GAG",
+       "root":"AAG",
+       "sbXP_066121392_1":"ATG"
+      },
+     "27":{
+       "root":"TGG"
+      },
+     "28":{
+       "raXP_016010790_2":"TGT",
+       "root":"TGC"
+      },
+     "29":{
+       "Pteropodidae":"TCG",
+       "ajXP_053524556_1":"TCG",
+       "rfXP_032985161_1":"TCA",
+       "root":"TCC"
+      },
+     "3":{
+       "Pteropus":"AAC",
+       "root":"AAG"
+      },
+     "30":{
+       "Myodm":"GTG",
+       "Phyllostomidae":"TTA",
+       "Pipistrellus":"CTG",
+       "raXP_016010790_2":"CTG",
+       "root":"TTG",
+       "sbXP_066121392_1":"TTA"
+      },
+     "31":{
+       "AjPh":"ACG",
+       "MolossusPhyllostomus":"ACG",
+       "YangochiropteraAfterSaccopteryx":"ACC",
+       "drXP_053771838_1":"ACT",
+       "root":"AAC"
+      },
+     "32":{
+       "Pipistrellus":"CAG",
+       "Pteropodidae":"AAG",
+       "drXP_053771838_1":"CAC",
+       "pkXP_036288527_1":"CAC",
+       "root":"GAG",
+       "sbXP_066121392_1":"AAG"
+      },
+     "33":{
+       "MolossusPhyllostomus":"AAC",
+       "Pipistrellus":"CAC",
+       "root":"ACT"
+      },
+     "34":{
+       "Myotis":"TTT",
+       "drXP_053771838_1":"TTT",
+       "rfXP_032985161_1":"TAC",
+       "root":"TTC",
+       "sbXP_066121392_1":"TAC"
+      },
+     "35":{
+       "MolossusPhyllostomus":"GAA",
+       "Pteropodidae":"ATA",
+       "pkXP_036288527_1":"CAA",
+       "raXP_016010790_2":"ATC",
+       "rfXP_032985161_1":"AAC",
+       "root":"AAA",
+       "sbXP_066121392_1":"CAG"
+      },
+     "36":{
+       "MolossusPhyllostomus":"GGC",
+       "Pteropodidae":"GGG",
+       "paXP_015447243_1":"GGA",
+       "root":"GGA",
+       "sbXP_066121392_1":"GGG"
+      },
+     "37":{
+       "MolossusPhyllostomus":"TAC",
+       "Phyllostomidae":"CAT",
+       "Pipistrellus":"TCC",
+       "Pteropodidae":"TAC",
+       "ajXP_053524556_1":"TAT",
+       "drXP_053771838_1":"CGT",
+       "pkXP_036288527_1":"TTC",
+       "raXP_016010790_2":"AAC",
+       "root":"TAT"
+      },
+     "38":{
+       "root":"TGG"
+      },
+     "39":{
+       "root":"AAG"
+      },
+     "4":{
+       "Phyllostomidae":"TGC",
+       "Pipistrellus":"TGC",
+       "Pteropus":"TGC",
+       "root":"TGT"
+      },
+     "40":{
+       "rfXP_032985161_1":"TAT",
+       "root":"TAC"
+      },
+     "41":{
+       "Phyllostomidae":"TGT",
+       "rfXP_032985161_1":"TGT",
+       "root":"TGC"
+      },
+     "42":{
+       "MolossusPhyllostomus":"TCC",
+       "Pteropodidae":"TTG",
+       "mmXP_036167419_1":"TCT",
+       "pnCAK6437274_1":"TCG",
+       "root":"TCT",
+       "sbXP_066121392_1":"GCT"
+      },
+     "43":{
+       "MolossusPhyllostomus":"GAG",
+       "Pteropodidae":"AAA",
+       "root":"GAA",
+       "sbXP_066121392_1":"GAG"
+      },
+     "44":{
+       "Myotis":"AAA",
+       "Pipistrellus":"GAG",
+       "Pteropodidae":"GAC",
+       "drXP_053771838_1":"GAT",
+       "mlXP_023604544_1":"AAT",
+       "mmXP_036167419_1":"ACA",
+       "rfXP_032985161_1":"GGA",
+       "root":"GAA"
+      },
+     "45":{
+       "root":"GAC"
+      },
+     "46":{
+       "AjPh":"ATG",
+       "Phyllostomidae":"TTG",
+       "Pipistrellus":"TTT",
+       "Pteropodidae":"TTT",
+       "mlXP_023604544_1":"TTT",
+       "pnCAK6437274_1":"TTG",
+       "root":"TTC"
+      },
+     "47":{
+       "AjPh":"GCC",
+       "Pipistrellus":"GCC",
+       "root":"GCA",
+       "sbXP_066121392_1":"GCC"
+      },
+     "48":{
+       "AjPh":"AAG",
+       "Pteropodidae":"AAG",
+       "root":"AAA"
+      },
+     "49":{
+       "YangochiropteraAfterSaccopteryx":"TGC",
+       "ajXP_053524556_1":"TGT",
+       "root":"TGT"
+      },
+     "5":{
+       "MolossusPhyllostomus":"TTC",
+       "ajXP_053524556_1":"TTC",
+       "rfXP_032985161_1":"TTC",
+       "root":"GTC"
+      },
+     "50":{
+       "Pteropodidae":"GCG",
+       "ajXP_053524556_1":"GCG",
+       "phXP_045712170_1":"ATG",
+       "raXP_016010790_2":"GCA",
+       "root":"GTG"
+      },
+     "51":{
+       "pkXP_036288527_1":"TTC",
+       "root":"TTT",
+       "sbXP_066121392_1":"TTC"
+      },
+     "52":{
+       "Pteropus":"CCA",
+       "raXP_016010790_2":"CCT",
+       "root":"CCC"
+      },
+     "53":{
+       "root":"TTC"
+      },
+     "54":{
+       "root":"TGG"
+      },
+     "55":{
+       "drXP_053771838_1":"TAC",
+       "rfXP_032985161_1":"TAC",
+       "root":"TTC",
+       "sbXP_066121392_1":"CAC"
+      },
+     "56":{
+       "AjPh":"CGA",
+       "Phyllostomus":"CGG",
+       "pdXP_035868745_1":"CAG",
+       "raXP_016010790_2":"GGA",
+       "root":"AGA"
+      },
+     "57":{
+       "pdXP_035868745_1":"CTC",
+       "root":"CGC"
+      },
+     "58":{
+       "MolossusPhyllostomus":"ACC",
+       "Pteropus":"CTG",
+       "root":"ATG"
+      },
+     "59":{
+       "root":"ATC"
+      },
+     "6":{
+       "AjPh":"TTC",
+       "Pipistrellus":"TTC",
+       "root":"TTT"
+      },
+     "60":{
+       "root":"TAC"
+      },
+     "61":{
+       "Pteropus":"CGG",
+       "root":"TGG"
+      },
+     "62":{
+       "Myotis":"GGA",
+       "Pipistrellus":"GAG",
+       "drXP_053771838_1":"GAG",
+       "root":"GAA"
+      },
+     "63":{
+       "Pipistrellus":"TGC",
+       "ajXP_053524556_1":"TGC",
+       "raXP_016010790_2":"TGC",
+       "root":"TGT"
+      },
+     "64":{
+       "mdXP_059521474_1":"ACA",
+       "mlXP_023604544_1":"ACG",
+       "rfXP_032985161_1":"ACT",
+       "root":"ACC"
+      },
+     "65":{
+       "MolossusPhyllostomus":"GAC",
+       "mdXP_059521474_1":"GAT",
+       "rfXP_032985161_1":"AAT",
+       "root":"GAA",
+       "sbXP_066121392_1":"GGG"
+      },
+     "66":{
+       "Myotis":"GAC",
+       "Phyllostomus":"GAC",
+       "Pipistrellus":"CAT",
+       "pkXP_036288527_1":"CAC",
+       "root":"GAT",
+       "sbXP_066121392_1":"GAC"
+      },
+     "67":{
+       "Pipistrellus":"GCG",
+       "Pteropodidae":"GGG",
+       "Yangochiroptera":"TCG",
+       "pdXP_035868745_1":"TCA",
+       "root":"GCG"
+      },
+     "68":{
+       "Phyllostomidae":"GAG",
+       "Pipistrellus":"GAC",
+       "Pteropodidae":"AAT",
+       "Pteropus":"CGT",
+       "ajXP_053524556_1":"AAC",
+       "pkXP_036288527_1":"AAC",
+       "root":"GAA",
+       "sbXP_066121392_1":"GAT"
+      },
+     "69":{
+       "Pipistrellus":"CTG",
+       "Pteropodidae":"CCA",
+       "Pteropus":"CCG",
+       "raXP_016010790_2":"CTA",
+       "rfXP_032985161_1":"ACA",
+       "root":"GCA"
+      },
+     "7":{
+       "MolossusPhyllostomus":"CCG",
+       "Phyllostomidae":"CCC",
+       "Pteropus":"CCC",
+       "root":"CCA"
+      },
+     "70":{
+       "AjPh":"TCT",
+       "ajXP_053524556_1":"TAT",
+       "phXP_045712170_1":"ACT",
+       "root":"TTT"
+      },
+     "71":{
+       "Pteropus":"AGG",
+       "root":"GGG",
+       "sbXP_066121392_1":"GGC"
+      },
+     "72":{
+       "Myotis":"AAA",
+       "Pipistrellus":"AGG",
+       "ajXP_053524556_1":"AAG",
+       "rfXP_032985161_1":"AAA",
+       "root":"AGA",
+       "sbXP_066121392_1":"AGG"
+      },
+     "73":{
+       "Myodm":"CGA",
+       "Myotis":"AGA",
+       "Phyllostomus":"CAC",
+       "drXP_053771838_1":"AAG",
+       "phXP_045712170_1":"CCC",
+       "rfXP_032985161_1":"AAC",
+       "root":"AAA"
+      },
+     "74":{
+       "root":"TGG"
+      },
+     "75":{
+       "MolossusPhyllostomus":"TGC",
+       "Phyllostomus":"TGC",
+       "root":"TGT"
+      },
+     "76":{
+       "Phyllostomidae":"TCG",
+       "Phyllostomus":"TCC",
+       "Pipistrellus":"TCC",
+       "Pteropus":"TCG",
+       "root":"TCA"
+      },
+     "77":{
+       "root":"CTG"
+      },
+     "78":{
+       "AjPh":"ACT",
+       "rfXP_032985161_1":"ACG",
+       "root":"ACC"
+      },
+     "79":{
+       "Myodm":"CGG",
+       "Pteropodidae":"AAG",
+       "root":"CAG",
+       "sbXP_066121392_1":"TGG"
+      },
+     "8":{
+       "root":"TTC"
+      },
+     "80":{
+       "Pipistrellus":"AAC",
+       "root":"AAT",
+       "sbXP_066121392_1":"AAC"
+      },
+     "81":{
+       "MolossusPhyllostomus":"TTC",
+       "ajXP_053524556_1":"TAC",
+       "raXP_016010790_2":"TTT",
+       "root":"TAT",
+       "sbXP_066121392_1":"TAC"
+      },
+     "82":{
+       "root":"AAC"
+      },
+     "83":{
+       "Myobl":"ATA",
+       "Myotis":"AAA",
+       "pdXP_035868745_1":"AGG",
+       "raXP_016010790_2":"AGG",
+       "root":"AAG"
+      },
+     "84":{
+       "AjPh":"GAT",
+       "MolossusPhyllostomus":"GAG",
+       "drXP_053771838_1":"GAA",
+       "mlXP_023604544_1":"CAG",
+       "pnCAK6437274_1":"GAT",
+       "rfXP_032985161_1":"GAA",
+       "root":"GAC",
+       "sbXP_066121392_1":"GAT"
+      },
+     "85":{
+       "drXP_053771838_1":"AAA",
+       "phXP_045712170_1":"AAA",
+       "raXP_016010790_2":"CAG",
+       "root":"AAG",
+       "sbXP_066121392_1":"GGG"
+      },
+     "86":{
+       "MolossusPhyllostomus":"GTC",
+       "Yangochiroptera":"GTT",
+       "ajXP_053524556_1":"ATT",
+       "root":"ATT"
+      },
+     "87":{
+       "root":"TGG"
+      },
+     "88":{
+       "MolossusPhyllostomus":"AAG",
+       "Myobl":"AGG",
+       "root":"AAA"
+      },
+     "89":{
+       "Pipistrellus":"TTC",
+       "pnCAK6437274_1":"CTC",
+       "rfXP_032985161_1":"TAC",
+       "root":"TAT"
+      },
+     "9":{
+       "MolossusPhyllostomus":"CAC",
+       "Myotis":"CGC",
+       "drXP_053771838_1":"CAC",
+       "root":"TAC"
+      },
+     "90":{
+       "MolossusPhyllostomus":"TGC",
+       "Yangochiroptera":"TGT",
+       "root":"TGC"
+      }
+    }
+  },
+ "test results":{
+   "LRT":0,
+   "p-value":0.5
+  },
+ "tested":{
+   "0":{
+     "AjPh":"background",
+     "MolossusPhyllostomus":"background",
+     "Myobl":"background",
+     "Myodm":"background",
+     "Myotis":"background",
+     "Phyllostomidae":"background",
+     "Phyllostomus":"background",
+     "Pipistrellus":"background",
+     "Pteropodidae":"background",
+     "Pteropus":"background",
+     "Yangochiroptera":"background",
+     "YangochiropteraAfterSaccopteryx":"background",
+     "ajXP_053524556_1":"background",
+     "drXP_053771838_1":"test",
+     "mbXP_005879641_1":"test",
+     "mdXP_059521474_1":"test",
+     "mlXP_023604544_1":"test",
+     "mmXP_036167419_1":"test",
+     "paXP_015447243_1":"background",
+     "pdXP_035868745_1":"background",
+     "pgXP_039724552_1":"background",
+     "phXP_045712170_1":"background",
+     "pkXP_036288527_1":"background",
+     "pnCAK6437274_1":"background",
+     "pvXP_023377897_1":"background",
+     "raXP_016010790_2":"background",
+     "rfXP_032985161_1":"test",
+     "sbXP_066121392_1":"background"
+    }
+  },
+ "timers":{
+   "Overall":{
+     "order":0,
+     "timer":64
+    },
+   "Preliminary model fitting":{
+     "order":1,
+     "timer":1
+    },
+   "Unconstrained BUSTED model fitting":{
+     "order":2,
+     "timer":62
+    }
+  }
+}

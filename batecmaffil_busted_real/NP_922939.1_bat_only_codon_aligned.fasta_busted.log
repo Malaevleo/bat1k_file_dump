@@ -1,0 +1,119 @@
+
+Analysis Description
+--------------------
+BUSTED (branch-site unrestricted statistical test of episodic
+diversification) uses a random effects branch-site model fitted jointly
+to all or a subset of tree branches in order to test for alignment-wide
+evidence of episodic diversifying selection. Assuming there is evidence
+of positive selection (i.e. there is an omega > 1), BUSTED will also
+perform a quick evidence-ratio style analysis to explore which
+individual sites may have been subject to selection. v2.0 adds support
+for synonymous rate variation, and relaxes the test statistic to 0.5
+(chi^2_0 + chi^2_2). Version 2.1 adds a grid search for the initial
+starting point. Version 2.2 changes the grid search to LHC, and adds an
+initial search phase to use adaptive Nedler-Mead. Version 3.0 implements
+the option for branch-site variation in synonymous substitution rates.
+Version 3.1 adds HMM auto-correlation option for SRV, and binds SRV
+distributions for multiple branch sets. Version 4.0 adds support for
+multiple hits (MH), ancestral state reconstruction saved to JSON, and
+profiling of branch-site level support for selection / multiple hits.
+Version 4.2 adds calculation of MH-attributable fractions of
+substitutions. Version 4.5 adds an 'error absorption' component
+[experimental] 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree (optionally annotated
+with {})
+
+- __Citation__: *Gene-wide identification of episodic selection*, Mol Biol Evol.
+32(5):1365-71, *Synonymous Site-to-Site Substitution Rate Variation
+Dramatically Inflates False Positive Rates of Selection Analyses: Ignore
+at Your Own Peril*, Mol Biol Evol. 37(8):2430-2439
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 4.5
+
+
+>code => Universal
+Error:
+Empty File Encountered By ReadDataSet.
+
+Function call stack
+1 :  [namespace = yxsHEUyB] DataSet  ^dataset_name = ReadDataFile(PROMPT_FOR_FILE);
+
+	Keyword arguments:
+		{
+		 "branches":"Foreground",
+		 "error-sink":"Yes",
+		 "output":"batecmaffil_bustede1_real/NP_922939.1_bat_only_codon_aligned.fasta_busted.json",
+		 "tree":"batecmaffil_trees/NP_922939.1_bat_only_codon_aligned.fasta_pruned.nwk"
+		}
+-------
+2 :  [namespace = DwcFHVvY] code_info=alignments.LoadGeneticCode(None);
+
+	Keyword arguments:
+		{
+		 "branches":"Foreground",
+		 "error-sink":"Yes",
+		 "output":"batecmaffil_bustede1_real/NP_922939.1_bat_only_codon_aligned.fasta_busted.json",
+		 "tree":"batecmaffil_trees/NP_922939.1_bat_only_codon_aligned.fasta_pruned.nwk"
+		}
+-------
+3 :  [namespace = zeCCjtwy] return alignments.ReadCodonDataSetFromPath(dataset_name,None);
+
+	Keyword arguments:
+		{
+		 "branches":"Foreground",
+		 "error-sink":"Yes",
+		 "output":"batecmaffil_bustede1_real/NP_922939.1_bat_only_codon_aligned.fasta_busted.json",
+		 "tree":"batecmaffil_trees/NP_922939.1_bat_only_codon_aligned.fasta_pruned.nwk"
+		}
+-------
+4 :  return alignments.LoadCodonDataFile(dataset_name,datafilter_name,alignments.ReadCodonDataSet(dataset_name));
+
+	Keyword arguments:
+		{
+		 "branches":"Foreground",
+		 "error-sink":"Yes",
+		 "output":"batecmaffil_bustede1_real/NP_922939.1_bat_only_codon_aligned.fasta_busted.json",
+		 "tree":"batecmaffil_trees/NP_922939.1_bat_only_codon_aligned.fasta_pruned.nwk"
+		}
+-------
+5 :  [namespace = busted] codon_data_info=alignments.PromptForGeneticCodeAndAlignment(datasets,prefix+".codon_filter");
+
+	Keyword arguments:
+		{
+		 "branches":"Foreground",
+		 "error-sink":"Yes",
+		 "output":"batecmaffil_bustede1_real/NP_922939.1_bat_only_codon_aligned.fasta_busted.json",
+		 "tree":"batecmaffil_trees/NP_922939.1_bat_only_codon_aligned.fasta_pruned.nwk"
+		}
+-------
+6 :  [namespace = busted] load_file("busted");
+
+	Keyword arguments:
+		{
+		 "branches":"Foreground",
+		 "error-sink":"Yes",
+		 "output":"batecmaffil_bustede1_real/NP_922939.1_bat_only_codon_aligned.fasta_busted.json",
+		 "tree":"batecmaffil_trees/NP_922939.1_bat_only_codon_aligned.fasta_pruned.nwk"
+		}
+-------
+7 :  namespace 
+
+Step 0.LoadFunctionLibrary("modules/shared-load-file.bf", /usr/local/share/hyphy/TemplateBatchFiles/SelectionAnalyses/);
+
+Step 1.load_file("busted");;
+
+	Keyword arguments:
+		{
+		 "branches":"Foreground",
+		 "error-sink":"Yes",
+		 "output":"batecmaffil_bustede1_real/NP_922939.1_bat_only_codon_aligned.fasta_busted.json",
+		 "tree":"batecmaffil_trees/NP_922939.1_bat_only_codon_aligned.fasta_pruned.nwk"
+		}
+-------
+
+Check errors.log for execution error details.

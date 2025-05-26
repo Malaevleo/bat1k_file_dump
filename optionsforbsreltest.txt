@@ -1,0 +1,5 @@
+mitimpair_pal2nal_noen/NP_004322.1_bat_only_aligned_nucleotide_codon_aligned.fasta
+mitimpair_trees_labeled/NP_004322.1_bat_only_aligned_nucleotide_codon_aligned.fasta_pruned.nwk
+
+hyphy/tests/hbltests/data/CD2_reduced.fasta
+hyphy/tests/hbltests/data/CD2.newick

@@ -1,0 +1,79 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch. v2.2 adds support for
+multiple-hit models. v2.3 adds support for SRV. v2.5 adds support for
+ancestral state reconstruction, identification of sites contributing to
+selection signal, and some diagnostics. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__:  Less Is More: An Adaptive Branch-Site Random Effects Model for
+Efficient Detection of Episodic Diversifying Selection (2015). Mol Biol
+Evol 32 (5): 1342-1353. 
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.5
+
+[Advanced option] Bag of little bootstrap alignment resampling rate (permissible range = [0.01,1], default value = 1): blb: 1
+
+>code => Universal
+
+-------
+>[WARNING]
+'/home/malaevleo/mitimpair_pal2nal_noen/Q8IXM3.1_bat_only_aligned_nucleotide_codon_aligned.fasta'
+contains 1 duplicate sequence. Identical sequences do not contribute any
+information to the analysis and only slow down computation. Please
+consider removing duplicate or 'nearly' duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+/home/malaevleo/mitimpair_trees_noen/Q8IXM3.1_bat_only_aligned_nucleotide_codon_aligned.fasta_pruned.nwk
+mitimpair_trees_noen/Q8IXM3.1_bat_only_aligned_nucleotide_codon_aligned.fasta_pruned.nwk
+
+>Loaded a multiple sequence alignment with **14** sequences, **118** codons, and **1** partitions from `/home/malaevleo/mitimpair_pal2nal_noen/Q8IXM3.1_bat_only_aligned_nucleotide_codon_aligned.fasta`
+
+>branches => All
+
+>multiple-hits => None
+
+>srv => No
+
+
+### * Selected 28 branches for testing: `rfXP_032979042_1, paXP_006918198_1, pgXP_039714968_1, pvXP_011384857_1, Pteropusgv, Pteropus, raXP_015986483_1, Pteropodidae, sbXP_066111699_1, ajXP_036983515_2, phXP_045702101_1, pdXP_028375008_1, Phyllostomus, AjPh, drXP_024418080_1, Phyllostomidae, moXP_036117749_1, Myobl, mmXP_036162740_1, Myodm, Myotis, pkXP_036272864_1, pnCAK6433449_1, Pipistrellus, Vespertilionidae, MolossusPhyllostomus, YangochiropteraAfterSaccopteryx, Yangochiroptera`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+Error:
+The number of tree tips in 'TAltQVtR.tree_0'(15) is not equal to the number of sequences in the data filter associated with the tree (14).
+
+Function call stack
+1 :  LikelihoodFunction  TAltQVtR.likelihoodFunction = (IMWCTl_b.lf_components);
+-------
+2 :  ExecuteCommands(commands, /usr/local/share/hyphy/TemplateBatchFiles/libv3/);
+-------
+3 :  [namespace = IMWCTl_b] utility.ExecuteInGlobalNamespace("LikelihoodFunction `lfid` = (`&lf_components`)");
+-------
+4 :  [namespace = TAltQVtR] df=estimators.CreateLFObject(this_namespace,data_filter,tree,model_template,initial_values,run_options,None);
+-------
+5 :  [namespace = pOgkFfqk] return estimators.FitSingleModel_Ext(data_filter,tree,"models.DNA.GTR.ModelDescription",initial_values,run_options);
+-------
+6 :  [namespace = CTakhaxk] return estimators.FitGTR_Ext(data_filter,tree,initial_values,{});
+-------
+7 :  [namespace = absrel] gtr_results=estimators.FitGTR(filter_names,trees,gtr_results);
+-------
+8 :  [namespace = absrel] doGTR("absrel");
+-------
+9 :  namespace 
+
+Step 0.doGTR("absrel");;
+-------
+
+Check errors.log for execution error details.

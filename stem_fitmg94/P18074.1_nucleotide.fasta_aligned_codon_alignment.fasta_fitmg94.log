@@ -1,0 +1,73 @@
+
+Analysis Description
+--------------------
+Fit an MG94xREV model with several selectable options frequency
+estimator and report the fit results including dN/dS ratios, and
+synonymous and non-synonymous branch lengths. v0.2 adds LRT test for
+dN/dS != 1. v0.3 adds LRT test support for dN/dS != 1 for local models.
+v0.4 adds the lineage option
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.4
+
+rooted: No
+type: lineage
+
+>code => Universal
+/home/malaevleo/stem_trees/P18074.1_nucleotide.fasta_aligned_codon_alignment.fasta_pruned.nwk
+stem_trees/P18074.1_nucleotide.fasta_aligned_codon_alignment.fasta_pruned.nwk
+
+>Loaded a multiple sequence alignment with **17** sequences, **381** codons, and **1** partitions from `/home/malaevleo/stem_sig_pal2nal/P18074.1_nucleotide.fasta_aligned_codon_alignment.fasta`
+
+>frequencies => CF3x4
+
+>lrt => No
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths => Yes
+
+### Deleted 2 zero-length internal branches: `Myobl, Myodm`
+* Log(L) = -4971.73, AIC-c = 10021.63 (39 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.572
+
+### Fitting Standard MG94
+* Log(L) = -4476.66, AIC-c =  9098.96 (72 estimated parameters)
+
+### Estimating confidence intervals for dN/dS along each lineage
+
+|                     Lineage                      |  Root-to-tip   |     dN/dS      |Approximate dN/dS CI|
+|:------------------------------------------------:|:--------------:|:--------------:|:------------------:|
+|                 rfXP_032984803_1                 |     0.043      |     0.043      |   0.018 - 0.083    |
+|                 paXP_024902552_1                 |     0.039      |     0.040      |   0.016 - 0.082    |
+|                 pgXP_039722132_1                 |     0.042      |     0.036      |   0.014 - 0.074    |
+|                 pvXP_023391126_1                 |     0.091      |     0.151      |   0.107 - 0.207    |
+|                 raXP_016005974_1                 |     0.044      |     0.050      |   0.023 - 0.093    |
+|                 sbXP_066127896_1                 |     0.047      |     0.053      |   0.025 - 0.095    |
+|                 ajXP_037003923_1                 |     0.076      |     0.042      |   0.022 - 0.070    |
+|                 phXP_045701093_1                 |     0.084      |     0.033      |   0.017 - 0.057    |
+|                 pdXP_028385790_1                 |     0.081      |     0.040      |   0.021 - 0.067    |
+|                 drXP_024425231_1                 |     0.069      |     0.047      |   0.025 - 0.079    |
+|                 moXP_036130990_1                 |     0.049      |     0.032      |   0.013 - 0.065    |
+|                 mbXP_005863442_1                 |     0.109      |     0.170      |   0.124 - 0.227    |
+|                 mlXP_023604919_1                 |     0.140      |     0.176      |   0.133 - 0.225    |
+|                 mdXP_059522145_1                 |     0.059      |     0.028      |   0.011 - 0.059    |
+|                 mmXP_036201853_1                 |     0.056      |     0.013      |   0.003 - 0.036    |
+|                 pkXP_036272320_1                 |     0.089      |     0.014      |   0.005 - 0.030    |
+|                  pnCAK6437196_1                  |     0.098      |     0.012      |   0.004 - 0.027    |
+
+### **Synonymous tree** 
+(rfXP_032984803_1:0.03650251551182438,((paXP_024902552_1:0.0008954133620559362,(pgXP_039722132_1:0.002627578378184576,pvXP_023391126_1:0.02362278860136066)Pteropusgv:0.001837242467685867)Pteropus:0.007581808208955963,raXP_016005974_1:0.01143105748223313)Pteropodidae:0.02497308235248147,(sbXP_066127896_1:0.02838758807672546,(((ajXP_037003923_1:0.01962485574372074,(phXP_045701093_1:0.01619145908875207,pdXP_028385790_1:0.01270305595628252)Phyllostomus:0.01261097963453759)AjPh:0.005191929757595829,drXP_024425231_1:0.01825544444264534)Phyllostomidae:0.02570713263991712,(moXP_036130990_1:0.02430674268543681,((mbXP_005863442_1:0.01728823605852837,mlXP_023604919_1:0.03533025039899417,mdXP_059522145_1:0.004205285627344741,mmXP_036201853_1:0.00334970225782744)Myotis:0.00459514505456406,(pkXP_036272320_1:0.008414550285107613,pnCAK6437196_1:0.01675108993064639)Pipistrellus:0.03159539941045387)Vespertilionidae:0.0253274636204929)MolossusPhyllostomus:0.004618877034804143)YangochiropteraAfterSaccopteryx:0.003608219602412806)Yangochiroptera:0.01102796687797652)
+
+### **Non-synonymous tree** 
+(rfXP_032984803_1:0.006125060542955284,((paXP_024902552_1:0,(pgXP_039722132_1:0,pvXP_023391126_1:0.02783639911419558)Pteropusgv:0)Pteropus:0.0008675111668434186,raXP_016005974_1:0.00264498045286405)Pteropodidae:0.004477925735166393,(sbXP_066127896_1:0.007880166792174343,(((ajXP_037003923_1:0.001984868701831438,(phXP_045701093_1:0.0006437161724933102,pdXP_028385790_1:0.001751205649759044)Phyllostomus:0)AjPh:0.0008648952267181282,drXP_024425231_1:0.002877054682969508)Phyllostomidae:0.006552637458335369,(moXP_036130990_1:0.003232525953485545,((mbXP_005863442_1:0.03877797359780256,mlXP_023604919_1:0.05264301218117549,mdXP_059522145_1:0.002643559245282949,mmXP_036201853_1:0)Myotis:0.001166709033797638,(pkXP_036272320_1:0.0008820466510124496,pnCAK6437196_1:0.0008823695085075426)Pipistrellus:0.001765482067141801)Vespertilionidae:0)MolossusPhyllostomus:0.0008767340431616455)YangochiropteraAfterSaccopteryx:0.001226160444224838)Yangochiroptera:0)
+**Combined tree** 
+(rfXP_032984803_1:0.04262757605477967,((paXP_024902552_1:0.0008954133620559362,(pgXP_039722132_1:0.002627578378184576,pvXP_023391126_1:0.05145918771555626)Pteropusgv:0.001837242467685867)Pteropus:0.008449319375799376,raXP_016005974_1:0.01407603793509719)Pteropodidae:0.02945100808764785,(sbXP_066127896_1:0.03626775486889979,(((ajXP_037003923_1:0.02160972444555217,(phXP_045701093_1:0.01683517526124538,pdXP_028385790_1:0.01445426160604155)Phyllostomus:0.01261097963453759)AjPh:0.006056824984313953,drXP_024425231_1:0.02113249912561483)Phyllostomidae:0.03225977009825249,(moXP_036130990_1:0.02753926863892235,((mbXP_005863442_1:0.05606620965633099,mlXP_023604919_1:0.08797326258016964,mdXP_059522145_1:0.006848844872627696,mmXP_036201853_1:0.00334970225782744)Myotis:0.005761854088361693,(pkXP_036272320_1:0.009296596936120055,pnCAK6437196_1:0.01763345943915394)Pipistrellus:0.03336088147759571)Vespertilionidae:0.0253274636204929)MolossusPhyllostomus:0.005495611077965791)YangochiropteraAfterSaccopteryx:0.004834380046637652)Yangochiroptera:0.01102796687797652)
+
+### Writing detailed analysis report to `/home/malaevleo/stem_fitmg94/P18074.1_nucleotide.fasta_aligned_codon_alignment.fasta_fitmg94.json'

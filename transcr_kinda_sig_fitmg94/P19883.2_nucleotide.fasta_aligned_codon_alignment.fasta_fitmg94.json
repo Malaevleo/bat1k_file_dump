@@ -1,0 +1,516 @@
+{
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond",
+   "contact":"spond@temple.edu",
+   "info":"Fit an MG94xREV model with several selectable options frequency estimator and \nreport the fit results including dN/dS ratios, and synonymous and non-synonymous branch lengths. v0.2 adds LRT test for dN/dS != 1. \nv0.3 adds LRT test support for dN/dS != 1 for local models. v0.4 adds the lineage option",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "version":"0.4"
+  },
+ "branch attributes":{
+   "0":{
+     "AjPh":{
+       "Nucleotide GTR":0.02046758005168631,
+       "Standard MG94":0.02337044373238092,
+       "dN":0.004135144394070533,
+       "dS":0.0890369252629427,
+       "nonsynonymous":0.003198288424583499,
+       "synonymous":0.02017215530779743
+      },
+     "MolossusPhyllostomus":{
+       "Nucleotide GTR":0.01224193091503227,
+       "Standard MG94":0.01373498970592633,
+       "dN":0.002063532306647898,
+       "dS":0.0535796278508598,
+       "nonsynonymous":0.001596019597180115,
+       "synonymous":0.01213897010874622
+      },
+     "Myobl":{
+       "Nucleotide GTR":0.002842977162423832,
+       "Standard MG94":0.001548638934180604,
+       "dN":0.002002272702453418,
+       "dS":4.413852853320339e-10,
+       "nonsynonymous":0.001548638934180604,
+       "synonymous":1e-10
+      },
+     "Myodm":{
+       "Nucleotide GTR":0.008416249231908821,
+       "Standard MG94":0.01035449531321112,
+       "dN":1.292924166027658e-10,
+       "dS":0.04570321868290898,
+       "nonsynonymous":1e-10,
+       "synonymous":0.01035449531321112
+      },
+     "Myotis":{
+       "Nucleotide GTR":0.006228986429223512,
+       "Standard MG94":0,
+       "dN":1.292924166027658e-10,
+       "dS":4.413852853320339e-10,
+       "nonsynonymous":1e-10,
+       "synonymous":1e-10
+      },
+     "Phyllostomidae":{
+       "Nucleotide GTR":0.02759274826966769,
+       "Standard MG94":0.02972676329359405,
+       "dN":0.006259502157206697,
+       "dS":0.1098405396836635,
+       "nonsynonymous":0.00484135289731509,
+       "synonymous":0.02488541039627895
+      },
+     "Phyllostomus":{
+       "Nucleotide GTR":0.01375726011405716,
+       "Standard MG94":0.01639128684901183,
+       "dN":1.292924166027658e-10,
+       "dS":0.07234872822810302,
+       "nonsynonymous":1e-10,
+       "synonymous":0.01639128684901183
+      },
+     "Pipistrellus":{
+       "Nucleotide GTR":0.05919346997605838,
+       "Standard MG94":0.08785569433369263,
+       "dN":0.01245088881405649,
+       "dS":0.3452766048109679,
+       "nonsynonymous":0.00963002250341583,
+       "synonymous":0.07822567183027686
+      },
+     "Pteropodidae":{
+       "Nucleotide GTR":0.01937990787173039,
+       "Standard MG94":0.01837763692901445,
+       "dN":0.002074176469069787,
+       "dS":0.07403525193919183,
+       "nonsynonymous":0.001604252224198443,
+       "synonymous":0.016773384704816
+      },
+     "Pteropus":{
+       "Nucleotide GTR":0.009625431341050358,
+       "Standard MG94":0.008000110594348488,
+       "dN":1.292924166027658e-10,
+       "dS":0.03531131097374334,
+       "nonsynonymous":1e-10,
+       "synonymous":0.008000110594348487
+      },
+     "Pteropusgv":{
+       "Nucleotide GTR":0.001582544551588136,
+       "Standard MG94":0.001326105529275424,
+       "dN":1.292924166027658e-10,
+       "dS":0.005853234674196204,
+       "nonsynonymous":1e-10,
+       "synonymous":0.001326105529275423
+      },
+     "Vespertilionidae":{
+       "Nucleotide GTR":0.04982743032192511,
+       "Standard MG94":0.06777354780212423,
+       "dN":0.006216620010925375,
+       "dS":0.2779198413837423,
+       "nonsynonymous":0.004808186105783092,
+       "synonymous":0.06296536169634108
+      },
+     "Yangochiroptera":{
+       "Nucleotide GTR":0.0364017448325645,
+       "Standard MG94":0.04224026387267268,
+       "dN":1.292924166027658e-10,
+       "dS":0.1864423092194002,
+       "nonsynonymous":1e-10,
+       "synonymous":0.04224026387267266
+      },
+     "YangochiropteraAfterSaccopteryx":{
+       "Nucleotide GTR":0.002439631812575325,
+       "Standard MG94":0,
+       "dN":1.292924166027658e-10,
+       "dS":4.413852853320339e-10,
+       "nonsynonymous":1e-10,
+       "synonymous":1e-10
+      },
+     "ajXP_037001012_1":{
+       "Confidence Intervals":{
+         "LB":0.01348060434547453,
+         "MLE":0.0313979960213741,
+         "UB":0.06081816816150165
+        },
+       "Lineage dN/dS":0.0313979960213741,
+       "Nucleotide GTR":0.02077882452867618,
+       "Standard MG94":0.02171785847448464,
+       "dN":0.004142000465278938,
+       "dS":0.0817192514887647,
+       "nonsynonymous":0.003203591188186,
+       "original name":"ajXP_037001012.1",
+       "synonymous":0.01851426728629865
+      },
+     "drXP_045060778_1":{
+       "Confidence Intervals":{
+         "LB":0.01488778308825431,
+         "MLE":0.03754589760955508,
+         "UB":0.07614698626388065
+        },
+       "Lineage dN/dS":0.03754589760955508,
+       "Nucleotide GTR":0.0157258530030208,
+       "Standard MG94":0.01469362987097692,
+       "dN":0.006251070454527966,
+       "dS":0.0435152854241477,
+       "nonsynonymous":0.004834831476414871,
+       "original name":"drXP_045060778.1",
+       "synonymous":0.009858798394562055
+      },
+     "mbXP_014397758_1":{
+       "Confidence Intervals":{
+         "LB":0.01682986003377407,
+         "MLE":0.03511427042727187,
+         "UB":0.06333014247790057
+        },
+       "Lineage dN/dS":0.03511427042727187,
+       "Nucleotide GTR":0.01289095983506997,
+       "Standard MG94":0.01339948018837925,
+       "dN":0.008342578404236436,
+       "dS":0.03066299877313586,
+       "nonsynonymous":0.006452488570824636,
+       "original name":"mbXP_014397758.1",
+       "synonymous":0.006946991617554603
+      },
+     "mdXP_059550994_1":{
+       "Confidence Intervals":{
+         "LB":0.004467253012744672,
+         "MLE":0.01441237711633817,
+         "UB":0.03349899298693037
+        },
+       "Lineage dN/dS":0.01441237711633817,
+       "Nucleotide GTR":0.003215630744967766,
+       "Standard MG94":0.003432792874923985,
+       "dN":1.292924166027658e-10,
+       "dS":0.01515184262584096,
+       "nonsynonymous":1e-10,
+       "original name":"mdXP_059550994.1",
+       "synonymous":0.003432792874923985
+      },
+     "mlXP_006106703_1":{
+       "Confidence Intervals":{
+         "LB":0.05245836919353412,
+         "MLE":0.08075084351253643,
+         "UB":0.1175915350870057
+        },
+       "Lineage dN/dS":0.08075084351253643,
+       "Nucleotide GTR":0.06105551070166898,
+       "Standard MG94":0.06288781078668257,
+       "dN":0.0470567349990093,
+       "dS":0.1169327740355616,
+       "nonsynonymous":0.03639558779660298,
+       "original name":"mlXP_006106703.1",
+       "synonymous":0.02649222299007962
+      },
+     "mmXP_036165248_1":{
+       "Confidence Intervals":{
+         "LB":0.006580706175318528,
+         "MLE":0.01839215940096004,
+         "UB":0.03953437818464771
+        },
+       "Lineage dN/dS":0.01839215940096004,
+       "Nucleotide GTR":0.003170540595702772,
+       "Standard MG94":0.003245253938421659,
+       "dN":0.002065325448341573,
+       "dS":0.007273356180995498,
+       "nonsynonymous":0.001597406485708298,
+       "original name":"mmXP_036165248.1",
+       "synonymous":0.001647847452713356
+      },
+     "moXP_036135519_1":{
+       "Confidence Intervals":{
+         "LB":0.01336443626297294,
+         "MLE":0.03729769782350122,
+         "UB":0.08032450225155231
+        },
+       "Lineage dN/dS":0.03729769782350122,
+       "Nucleotide GTR":0.01676034941694323,
+       "Standard MG94":0.01710703872592493,
+       "dN":0.008314855248052642,
+       "dS":0.04712225937877522,
+       "nonsynonymous":0.006431046357188108,
+       "original name":"moXP_036135519.1",
+       "synonymous":0.01067599236873683
+      },
+     "paXP_015445321_1":{
+       "Confidence Intervals":{
+         "LB":0.001027134437969372,
+         "MLE":0.01805102163126768,
+         "UB":0.07933758190904576
+        },
+       "Lineage dN/dS":0.01805102163126768,
+       "Nucleotide GTR":0.001600344827812477,
+       "Standard MG94":0.00138532139055877,
+       "dN":1.292924166027658e-10,
+       "dS":0.006114604772483526,
+       "nonsynonymous":1e-10,
+       "original name":"paXP_015445321.1",
+       "synonymous":0.00138532139055877
+      },
+     "pdXP_028373431_1":{
+       "Confidence Intervals":{
+         "LB":0.007654480066010168,
+         "MLE":0.02138338683576411,
+         "UB":0.04597720271324774
+        },
+       "Lineage dN/dS":0.02138338683576411,
+       "Nucleotide GTR":0.006379829261457927,
+       "Standard MG94":0.006727159355558499,
+       "dN":1.292924166027658e-10,
+       "dS":0.02969269151627249,
+       "nonsynonymous":1e-10,
+       "original name":"pdXP_028373431.1",
+       "synonymous":0.006727159355558499
+      },
+     "pgXP_039725861_1":{
+       "Confidence Intervals":{
+         "LB":0.03184183491360187,
+         "MLE":0.08818995790479162,
+         "UB":0.1882526506986118
+        },
+       "Lineage dN/dS":0.08818995790479162,
+       "Nucleotide GTR":0.01285331863131596,
+       "Standard MG94":0.01206255346304294,
+       "dN":0.009826995782751315,
+       "dS":0.01969441842866872,
+       "nonsynonymous":0.007600597189658453,
+       "original name":"pgXP_039725861.1",
+       "synonymous":0.004461956273384492
+      },
+     "phXP_045695856_1":{
+       "Confidence Intervals":{
+         "LB":0.008166893377787669,
+         "MLE":0.02284653887309037,
+         "UB":0.04906761703571023
+        },
+       "Lineage dN/dS":0.02284653887309037,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.292924166027658e-10,
+       "dS":4.413852853320339e-10,
+       "nonsynonymous":1e-10,
+       "original name":"phXP_045695856.1",
+       "synonymous":1e-10
+      },
+     "pkXP_036266298_1":{
+       "Confidence Intervals":{
+         "LB":0.01163306950434707,
+         "MLE":0.02325804028679389,
+         "UB":0.04075671023640243
+        },
+       "Lineage dN/dS":0.02325804028679389,
+       "Nucleotide GTR":0.006899599659622667,
+       "Standard MG94":0.01037860596264815,
+       "dN":1.292924166027658e-10,
+       "dS":0.04580963954172202,
+       "nonsynonymous":1e-10,
+       "original name":"pkXP_036266298.1",
+       "synonymous":0.01037860596264815
+      },
+     "pnCAK6444099_1":{
+       "Confidence Intervals":{
+         "LB":0.01252166201567274,
+         "MLE":0.02482482285786914,
+         "UB":0.04328340124083458
+        },
+       "Lineage dN/dS":0.02482482285786914,
+       "Nucleotide GTR":0.006105151280398848,
+       "Standard MG94":0.004487706376379176,
+       "dN":0.002062845718547304,
+       "dS":0.01276582385202275,
+       "nonsynonymous":0.001595488562090328,
+       "original name":"pnCAK6444099.1",
+       "synonymous":0.002892217814288849
+      },
+     "pvXP_011378903_1":{
+       "Confidence Intervals":{
+         "LB":0.001029541668020694,
+         "MLE":0.01803695305350191,
+         "UB":0.07952034315178529
+        },
+       "Lineage dN/dS":0.01803695305350191,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.292924166027658e-10,
+       "dS":4.413852853320339e-10,
+       "nonsynonymous":1e-10,
+       "original name":"pvXP_011378903.1",
+       "synonymous":1e-10
+      },
+     "raXP_015997851_1":{
+       "Confidence Intervals":{
+         "LB":0.001035611009371555,
+         "MLE":0.01814440986653154,
+         "UB":0.07999463698038034
+        },
+       "Lineage dN/dS":0.01814440986653154,
+       "Nucleotide GTR":0.009682028902245387,
+       "Standard MG94":0.009186096085356555,
+       "dN":1.292924166027658e-10,
+       "dS":0.04054607641722582,
+       "nonsynonymous":1e-10,
+       "original name":"raXP_015997851.1",
+       "synonymous":0.009186096085356555
+      },
+     "rfXP_032967161_1":{
+       "Confidence Intervals":{
+         "LB":0,
+         "MLE":0,
+         "UB":0.03492763741102135
+        },
+       "Lineage dN/dS":0,
+       "Nucleotide GTR":0.02933810922826821,
+       "Standard MG94":0.02615332626154097,
+       "dN":1.292924166027658e-10,
+       "dS":0.1154369337433204,
+       "nonsynonymous":1e-10,
+       "original name":"rfXP_032967161.1",
+       "synonymous":0.02615332626154097
+      },
+     "sbXP_066096870_1":{
+       "Confidence Intervals":{
+         "LB":0.0003981645579557357,
+         "MLE":0.006977093918839492,
+         "UB":0.03075456812047303
+        },
+       "Lineage dN/dS":0.006977093918839492,
+       "Nucleotide GTR":0.02708245346656476,
+       "Standard MG94":0.02760082823583329,
+       "dN":0.002068044442372421,
+       "dS":0.1147659950423511,
+       "nonsynonymous":0.00159950946599306,
+       "original name":"sbXP_066096870.1",
+       "synonymous":0.02600131876984025
+      }
+    },
+   "attributes":{
+     "Confidence Intervals":{
+       "attribute type":"branch attributes",
+       "display order":4
+      },
+     "Lineage dN/dS":{
+       "attribute type":"branch attributes",
+       "display order":5
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Standard MG94":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "dN":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "dS":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "nonsynonymous":{
+       "attribute type":"branch length",
+       "display order":3
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      },
+     "synonymous":{
+       "attribute type":"branch length",
+       "display order":2
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209] 
+      ],
+     "name":"fitter.filter.default"
+    }
+  },
+ "fits":{
+   "Nucleotide GTR":{
+     "AIC-c":5086.247168435317,
+     "Equilibrium frequencies":      [
+[0.2524743230625583],
+      [0.2895424836601307],
+      [0.292156862745098],
+      [0.1658263305322129] 
+      ],
+     "Log Likelihood":-2503.977379906506,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.2243534074016086,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.1547342488211187,
+       "Substitution rate from nucleotide C to nucleotide G":0.5568222017979815,
+       "Substitution rate from nucleotide C to nucleotide T":1.868304053997894,
+       "Substitution rate from nucleotide G to nucleotide T":0.1420309687769709
+      },
+     "display order":0,
+     "estimated parameters":39
+    },
+   "Standard MG94":{
+     "AIC-c":4545.212116977918,
+     "Log Likelihood":-2194.930707787556,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.2627258488096404,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.375171383879578,
+       "Substitution rate from nucleotide C to nucleotide G":0.3609026915577362,
+       "Substitution rate from nucleotide C to nucleotide T":1.088214785301736,
+       "Substitution rate from nucleotide G to nucleotide T":0.2745236489650011
+      },
+     "display order":1,
+     "estimated parameters":76
+    }
+  },
+ "input":{
+   "file name":"/home/malaevleo/transcr_kinda_sig_pal2nal/P19883.2_nucleotide.fasta_aligned_codon_alignment.fasta",
+   "number of sequences":17,
+   "number of sites":210,
+   "partition count":1,
+   "trees":{
+     "0":"(rfXP_032967161_1:58,((paXP_015445321_1:11.9346,(pgXP_039725861_1:6.17065,pvXP_011378903_1:6.17065)Pteropusgv:5.764)Pteropus:12.7335,raXP_015997851_1:24.6682)Pteropodidae:33.3318,(sbXP_066096870_1:55,(((ajXP_037001012_1:24.4553,(phXP_045695856_1:11.2,pdXP_028373431_1:11.2)Phyllostomus:13.2553)AjPh:3.30694,drXP_045060778_1:27.7622)Phyllostomidae:23.5519,(moXP_036135519_1:45.7977,(((mbXP_014397758_1:11.4192,mlXP_006106703_1:11.4192)Myobl:6.8221,(mdXP_059550994_1:13.1,mmXP_036165248_1:13.1)Myodm:5.14128)Myotis:10.5153,(pkXP_036266298_1:18.9083,pnCAK6444099_1:18.9083)Pipistrellus:9.848280000000001)Vespertilionidae:17.0412)MolossusPhyllostomus:5.51643)YangochiropteraAfterSaccopteryx:3.68585)Yangochiroptera:7)"
+    }
+  },
+ "tested":{
+   "0":{
+     "AjPh":"test",
+     "MolossusPhyllostomus":"test",
+     "Myobl":"test",
+     "Myodm":"test",
+     "Myotis":"test",
+     "Phyllostomidae":"test",
+     "Phyllostomus":"test",
+     "Pipistrellus":"test",
+     "Pteropodidae":"test",
+     "Pteropus":"test",
+     "Pteropusgv":"test",
+     "Vespertilionidae":"test",
+     "Yangochiroptera":"test",
+     "YangochiropteraAfterSaccopteryx":"test",
+     "ajXP_037001012_1":"test",
+     "drXP_045060778_1":"test",
+     "mbXP_014397758_1":"test",
+     "mdXP_059550994_1":"test",
+     "mlXP_006106703_1":"test",
+     "mmXP_036165248_1":"test",
+     "moXP_036135519_1":"test",
+     "paXP_015445321_1":"test",
+     "pdXP_028373431_1":"test",
+     "pgXP_039725861_1":"test",
+     "phXP_045695856_1":"test",
+     "pkXP_036266298_1":"test",
+     "pnCAK6444099_1":"test",
+     "pvXP_011378903_1":"test",
+     "raXP_015997851_1":"test",
+     "rfXP_032967161_1":"test",
+     "sbXP_066096870_1":"test"
+    }
+  },
+ "timers":{
+   "Overall":{
+     "order":0,
+     "timer":10
+    },
+   "Standard MG94":{
+     "order":null,
+     "timer":10
+    }
+  }
+}

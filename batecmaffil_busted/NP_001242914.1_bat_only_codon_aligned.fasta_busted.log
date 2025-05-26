@@ -1,0 +1,268 @@
+
+Analysis Description
+--------------------
+BUSTED (branch-site unrestricted statistical test of episodic
+diversification) uses a random effects branch-site model fitted jointly
+to all or a subset of tree branches in order to test for alignment-wide
+evidence of episodic diversifying selection. Assuming there is evidence
+of positive selection (i.e. there is an omega > 1), BUSTED will also
+perform a quick evidence-ratio style analysis to explore which
+individual sites may have been subject to selection. v2.0 adds support
+for synonymous rate variation, and relaxes the test statistic to 0.5
+(chi^2_0 + chi^2_2). Version 2.1 adds a grid search for the initial
+starting point. Version 2.2 changes the grid search to LHC, and adds an
+initial search phase to use adaptive Nedler-Mead. Version 3.0 implements
+the option for branch-site variation in synonymous substitution rates.
+Version 3.1 adds HMM auto-correlation option for SRV, and binds SRV
+distributions for multiple branch sets. Version 4.0 adds support for
+multiple hits (MH), ancestral state reconstruction saved to JSON, and
+profiling of branch-site level support for selection / multiple hits.
+Version 4.2 adds calculation of MH-attributable fractions of
+substitutions. Version 4.5 adds an 'error absorption' component
+[experimental] 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree (optionally annotated
+with {})
+
+- __Citation__: *Gene-wide identification of episodic selection*, Mol Biol Evol.
+32(5):1365-71, *Synonymous Site-to-Site Substitution Rate Variation
+Dramatically Inflates False Positive Rates of Selection Analyses: Ignore
+at Your Own Peril*, Mol Biol Evol. 37(8):2430-2439
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 4.5
+
+
+>code => Universal
+/home/malaevleo/batecmaffil_trees/NP_001242914.1_bat_only_codon_aligned.fasta_pruned.nwk
+batecmaffil_trees/NP_001242914.1_bat_only_codon_aligned.fasta_pruned.nwk
+
+>Loaded a multiple sequence alignment with **17** sequences, **300** codons, and **1** partitions from `/home/malaevleo/batecmaffil_pal2nal/NP_001242914.1_bat_only_codon_aligned.fasta`
+
+>branches => Foreground
+
+>srv => Yes
+The number omega rate classes to include in the model (permissible range = [1,10], default value = 3, integer): 
+>rates => 3
+
+>multiple-hits => None
+The number alpha rate classes to include in the model [1-10, default 3] (permissible range = [1,10], default value = 3, integer): 
+>syn-rates => 3
+
+>error-sink => Yes
+The number of points in the initial distributional guess for likelihood fitting (permissible range = [1,10000], default value = 250, integer): 
+>grid-size => 250
+The number of initial random guesses to 'seed' rate values optimization (permissible range = [1,25], default value = 1, integer): 
+>starting-points => 1
+
+
+### Branches to test for selection in the BUSTED analysis
+* Selected 6 branches to test in the BUSTED analysis: `rfXP_032980086_1, drXP_024408743_3, mbXP_014396027_1, mlXP_006085299_1, mdXP_059516606_1, mmXP_036191325_1`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths => Yes
+
+### Deleted 2 zero-length internal branches: `MolossusPhyllostomus, Yangochiroptera`
+* Log(L) = -13573.72, AIC-c = 27225.65 (39 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site) 531.456
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -13105.77, AIC-c = 26302.37 (45 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site) 800.346
+* non-synonymous/synonymous rate ratio for *background* =   0.2667
+* non-synonymous/synonymous rate ratio for *test* =   0.3757
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -13068.76, AIC-c = 26228.33 (45 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   0.1464
+* non-synonymous/synonymous rate ratio for *test* =   0.2064
+
+### Performing the full (dN/dS > 1 allowed) branch-site model fit
+* Log(L) = -12209.72, AIC-c = 24544.98 (62 estimated parameters)
+* For *test* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.004     |    4.684    |                                   |
+|         Neutral evolution         |     1.000     |   88.289    |                                   |
+|         Error absorption          |    954.226    |    1.000    |                                   |
+|      Diversifying selection       |   3142.050    |    6.027    |                                   |
+
+* For *background* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.003     |   10.118    |                                   |
+|        Negative selection         |     0.143     |   80.687    |                                   |
+|        Negative selection         |     0.145     |    8.982    |       Collapsed rate class        |
+|         Error absorption          |    100.000    |    0.214    |                                   |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.113               |    27.726     |                                   |
+|               1.340               |    72.274     |                                   |
+|               7.142               |     0.000     |       Not supported by data       |
+
+
+### Performing the constrained (dN/dS > 1 not allowed) model fit
+* Log(L) = -12209.67, AIC-c = 24542.84 (61 estimated parameters)
+* For *test* branches under the null (no dN/dS > 1 model), the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.004     |    4.715    |                                   |
+|         Neutral evolution         |     1.000     |   88.290    |                                   |
+|         Neutral evolution         |     1.000     |    5.995    |       Collapsed rate class        |
+|         Error absorption          |   1017.908    |    1.000    |                                   |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.112               |    27.511     |                                   |
+|               1.337               |    72.489     |                                   |
+|               5.160               |     0.000     |       Not supported by data       |
+
+----
+## Negative test LRT (convergence problem). Refitting the alternative model using the null model as a start.
+----
+
+* Log(L) = -12209.65, AIC-c = 24544.84 (62 estimated parameters)
+* For *test* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.004     |    4.726    |                                   |
+|         Neutral evolution         |     1.000     |   88.256    |                                   |
+|      Diversifying selection       |     1.295     |    6.018    |                                   |
+|         Error absorption          |   1017.908    |    1.000    |                                   |
+
+* For *background* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.004     |    9.947    |                                   |
+|        Negative selection         |     0.143     |   10.504    |                                   |
+|        Negative selection         |     0.143     |   79.331    |       Collapsed rate class        |
+|         Error absorption          |    100.000    |    0.218    |                                   |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.110               |    27.429     |                                   |
+|               1.336               |    72.571     |                                   |
+|               3.896               |     0.000     |       Not supported by data       |
+
+Performing the constrained (dN/dS > 1 not allowed) model fit
+* Log(L) = -12209.63, AIC-c = 24542.76 (61 estimated parameters)
+* For *test* branches under the null (no dN/dS > 1 model), the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.004     |    4.764    |                                   |
+|         Neutral evolution         |     1.000     |   88.256    |                                   |
+|         Neutral evolution         |     1.000     |    5.980    |       Collapsed rate class        |
+|         Error absorption          |   1017.908    |    1.000    |                                   |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.108               |    27.214     |                                   |
+|               1.333               |    72.786     |                                   |
+|               3.048               |     0.000     |       Not supported by data       |
+
+----
+## Negative test LRT (convergence problem). Refitting the alternative model using the null model as a start.
+----
+
+* Log(L) = -12209.62, AIC-c = 24544.78 (62 estimated parameters)
+* For *test* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.003     |    4.769    |                                   |
+|         Neutral evolution         |     1.000     |   88.256    |                                   |
+|      Diversifying selection       |     1.242     |    5.975    |                                   |
+|         Error absorption          |   1017.908    |    1.000    |                                   |
+
+* For *background* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.003     |    9.981    |                                   |
+|        Negative selection         |     0.143     |   79.599    |                                   |
+|        Negative selection         |     0.144     |   10.203    |       Collapsed rate class        |
+|         Error absorption          |    100.000    |    0.218    |                                   |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.107               |    27.129     |                                   |
+|               1.332               |    72.871     |                                   |
+|               2.518               |     0.000     |       Not supported by data       |
+
+Performing the constrained (dN/dS > 1 not allowed) model fit
+* Log(L) = -12209.52, AIC-c = 24542.54 (61 estimated parameters)
+* For *test* branches under the null (no dN/dS > 1 model), the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.002     |    4.476    |                                   |
+|         Neutral evolution         |     1.000     |   88.256    |                                   |
+|         Neutral evolution         |     1.000     |    6.268    |       Collapsed rate class        |
+|         Error absorption          |   1015.136    |    1.000    |                                   |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.103               |    26.811     |                                   |
+|               1.329               |    73.189     |                                   |
+|               2.061               |     0.000     |       Not supported by data       |
+
+----
+## Negative test LRT (convergence problem). Refitting the alternative model using the null model as a start.
+----
+
+* Log(L) = -12184.02, AIC-c = 24493.59 (62 estimated parameters)
+* For *test* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.004     |    3.394    |                                   |
+|         Neutral evolution         |     1.000     |   89.826    |                                   |
+|         Neutral evolution         |     1.000     |    5.781    |       Collapsed rate class        |
+|         Error absorption          |    972.294    |    1.000    |                                   |
+
+* For *background* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.004     |    8.307    |                                   |
+|        Negative selection         |     0.123     |   89.487    |                                   |
+|        Negative selection         |     0.944     |    2.004    |                                   |
+|         Error absorption          |    100.000    |    0.201    |                                   |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.000               |     0.334     |                                   |
+|               0.190               |    35.867     |                                   |
+|               1.461               |    63.799     |                                   |
+
+
+### No evidence for episodic diversifying positive selection under the unconstrained model, skipping constrained model fitting
+----
+## Branch-site unrestricted statistical test of episodic diversification [BUSTED]
+Likelihood ratio test for episodic diversifying positive selection, **p =   0.5000**.

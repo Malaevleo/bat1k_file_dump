@@ -1,0 +1,83 @@
+
+Analysis Description
+--------------------
+Fit an MG94xREV model with several selectable options frequency
+estimator and report the fit results including dN/dS ratios, and
+synonymous and non-synonymous branch lengths. v0.2 adds LRT test for
+dN/dS != 1. v0.3 adds LRT test support for dN/dS != 1 for local models.
+v0.4 adds the lineage option
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.4
+
+rooted: No
+type: lineage
+
+>code => Universal
+
+-------
+>[WARNING]
+'/home/malaevleo/batsec_sig_pal2nal/NP_001165095.1_bat_only_nucleotide_codon_aligned.fasta'
+contains 1 duplicate sequence. Identical sequences do not contribute any
+information to the analysis and only slow down computation. Please
+consider removing duplicate or 'nearly' duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+/home/malaevleo/batsec_trees/NP_001165095.1_bat_only_nucleotide_codon_aligned.fasta_pruned.nwk
+batsec_trees/NP_001165095.1_bat_only_nucleotide_codon_aligned.fasta_pruned.nwk
+
+>Loaded a multiple sequence alignment with **17** sequences, **138** codons, and **1** partitions from `/home/malaevleo/batsec_sig_pal2nal/NP_001165095.1_bat_only_nucleotide_codon_aligned.fasta`
+
+>frequencies => CF3x4
+
+>lrt => No
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths => Yes
+
+### Deleted 5 zero-length internal branches: `AjPh, Myobl, Pteropusgv, Vespertilionidae, YangochiropteraAfterSaccopteryx`
+* Log(L) = -1317.11, AIC-c =  2712.67 (39 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.359
+
+### Fitting Standard MG94
+* Log(L) = -1223.33, AIC-c =  2582.55 (66 estimated parameters)
+
+### Estimating confidence intervals for dN/dS along each lineage
+
+|                     Lineage                      |  Root-to-tip   |     dN/dS      |Approximate dN/dS CI|
+|:------------------------------------------------:|:--------------:|:--------------:|:------------------:|
+|                 rfXP_032952366_1                 |     0.016      |     0.063      |   0.003 - 0.277    |
+|                 paXP_015455893_1                 |     0.035      |     0.056      |   0.009 - 0.174    |
+|                 pgXP_039710410_1                 |     0.035      |     0.056      |   0.009 - 0.174    |
+|                 pvXP_011353022_1                 |     0.033      |     0.061      |   0.010 - 0.190    |
+|                 raXP_036074329_1                 |     0.030      |     0.068      |   0.011 - 0.211    |
+|                 sbXP_066107492_1                 |     0.065      |     0.080      |   0.028 - 0.172    |
+|                 drXP_024413494_2                 |     0.052      |     0.106      |   0.038 - 0.228    |
+|                 ajXP_053524271_1                 |     0.047      |     0.064      |   0.016 - 0.165    |
+|                 phXP_045698747_1                 |     0.057      |     0.052      |   0.013 - 0.134    |
+|                 pdXP_035878485_1                 |     0.053      |     0.056      |   0.014 - 0.145    |
+|                 moXP_036104241_1                 |     0.048      |     0.196      |   0.084 - 0.379    |
+|                 mdXP_059557556_1                 |     0.035      |     0.216      |   0.076 - 0.472    |
+|                 mmXP_036172778_1                 |     0.035      |     0.216      |   0.076 - 0.472    |
+|                 mbXP_014390861_1                 |     0.167      |     0.340      |   0.230 - 0.482    |
+|                 mlXP_006100653_1                 |     0.033      |     0.168      |   0.051 - 0.398    |
+|                 pkXP_045429115_1                 |     0.051      |     0.175      |   0.075 - 0.341    |
+|                  pnCAK6446945_1                  |     0.051      |     0.222      |   0.101 - 0.414    |
+
+### **Synonymous tree** 
+(rfXP_032952366_1:0.01374932633825004,((paXP_015455893_1:0.002492971376658867,pgXP_039710410_1:0.002498782565082425,pvXP_011353022_1:0)Pteropus:0.005176924532009785,raXP_036074329_1:0.002502979546185212)Pteropodidae:0.02266786601295219,(sbXP_066107492_1:0.03598215714099644,(drXP_024413494_2:0.01354237822692495,ajXP_053524271_1:0.01288930816309847,(phXP_045698747_1:0.007790733737351604,pdXP_035878485_1:0.003880064954884604)Phyllostomus:0.01448378337081026)Phyllostomidae:0.009586909936081337,(moXP_036104241_1:0.01392300659041827,((mdXP_059557556_1:0,mmXP_036172778_1:0)Myodm:0,mbXP_014390861_1:0.06251419036213242,mlXP_006100653_1:0)Myotis:0.005757627970643255,(pkXP_045429115_1:0.002686266447459625,pnCAK6446945_1:0)Pipistrellus:0.01434535233206428)MolossusPhyllostomus:0)Yangochiroptera:0.0176063742463674)
+
+### **Non-synonymous tree** 
+(rfXP_032952366_1:0.002355891248509327,((paXP_015455893_1:0,pgXP_039710410_1:0,pvXP_011353022_1:0)Pteropus:0,raXP_036074329_1:0)Pteropodidae:0.004718183378287828,(sbXP_066107492_1:0.00706230662671228,(drXP_024413494_2:0.004684480030146061,ajXP_053524271_1:0,(phXP_045698747_1:0,pdXP_035878485_1:0)Phyllostomus:0)Phyllostomidae:0.002342630985729036,(moXP_036104241_1:0.007087536291189136,((mdXP_059557556_1:0,mmXP_036172778_1:0)Myodm:0.002350379182614153,mbXP_014390861_1:0.07196732597794278,mlXP_006100653_1:0)Myotis:0,(pkXP_045429115_1:0,pnCAK6446945_1:0.002325232086496918)Pipistrellus:0.007047233881257074)MolossusPhyllostomus:0.004703178662925086)Yangochiroptera:0.004703106687454868)
+**Combined tree** 
+(rfXP_032952366_1:0.01610521758675939,((paXP_015455893_1:0.002492971376658867,pgXP_039710410_1:0.002498782565082425,pvXP_011353022_1:0)Pteropus:0.005176924532009785,raXP_036074329_1:0.002502979546185212)Pteropodidae:0.02738604939124006,(sbXP_066107492_1:0.04304446376770866,(drXP_024413494_2:0.01822685825707102,ajXP_053524271_1:0.01288930816309847,(phXP_045698747_1:0.007790733737351604,pdXP_035878485_1:0.003880064954884604)Phyllostomus:0.01448378337081026)Phyllostomidae:0.01192954092181037,(moXP_036104241_1:0.02101054288160742,((mdXP_059557556_1:0,mmXP_036172778_1:0)Myodm:0.002350379182614153,mbXP_014390861_1:0.134481516340075,mlXP_006100653_1:0)Myotis:0.005757627970643255,(pkXP_045429115_1:0.002686266447459625,pnCAK6446945_1:0.002325232086496918)Pipistrellus:0.02139258621332134)MolossusPhyllostomus:0.004703178662925086)Yangochiroptera:0.02230948093382228)
+
+### Writing detailed analysis report to `/home/malaevleo/batsec_fitmg94/NP_001165095.1_bat_only_nucleotide_codon_aligned.fasta_fitmg94.json'

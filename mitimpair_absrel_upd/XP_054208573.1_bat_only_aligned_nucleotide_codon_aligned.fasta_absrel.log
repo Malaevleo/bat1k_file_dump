@@ -1,0 +1,64 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch. v2.2 adds support for
+multiple-hit models. v2.3 adds support for SRV. v2.5 adds support for
+ancestral state reconstruction, identification of sites contributing to
+selection signal, and some diagnostics. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__:  Less Is More: An Adaptive Branch-Site Random Effects Model for
+Efficient Detection of Episodic Diversifying Selection (2015). Mol Biol
+Evol 32 (5): 1342-1353. 
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.5
+
+[Advanced option] Bag of little bootstrap alignment resampling rate (permissible range = [0.01,1], default value = 1): blb: 1
+
+>code => Universal
+/home/malaevleo/mitimpair_trees/XP_054208573.1_bat_only_aligned_nucleotide_codon_aligned.fasta_pruned.nwk
+mitimpair_trees/XP_054208573.1_bat_only_aligned_nucleotide_codon_aligned.fasta_pruned.nwk
+
+>Loaded a multiple sequence alignment with **18** sequences, **930** codons, and **1** partitions from `/home/malaevleo/mitimpair_pal2nal/XP_054208573.1_bat_only_aligned_nucleotide_codon_aligned.fasta`
+
+>branches => All
+
+>multiple-hits => None
+
+>srv => No
+
+
+### * Selected 33 branches for testing: `rfXP_032966295_1, paXP_006913336_1, pgXP_039704351_1, pvXP_011363454_1, Pteropusgv, Pteropus, raXP_036081259_1, Pteropodidae, sbXP_066130079_1, ajXP_037022941_2, phXP_045693942_1, pdXP_028366013_1, Phyllostomus, AjPh, drXP_024419073_1, Phyllostomidae, moXP_036136753_1, mbXP_005866509_1, mlXP_023604926_1, Myobl, mdXP_059549918_1, mmXP_036165529_1, Myodm, Myotis, pkXP_036267287_1, pnCAK6444419_1, Pipistrellus, enKAK1327785_1, EpPi, Vespertilionidae, MolossusPhyllostomus, YangochiropteraAfterSaccopteryx, Yangochiroptera`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+Error:
+Internal error 
+Internal error in ComputeBranchCache (branch HrcxSwyd.tree_0.mbXP_005866509_1, eval #998 ) reversible model cached likelihood =   -16217.61595554739, directly computed likelihood =   -16217.57451204642. This is most likely because a non-reversible model was incorrectly auto-detected (or specified by the model file in environment variables; for smaller errors, this could be due to numerical instability of calculations for larger alignments). To treat numerical errors as warnings, please specify "ENV=TOLERATE_NUMERICAL_ERRORS=1;" as the command line argument. This often resolves the issue, which is indicative of numerical instability.
+
+Function call stack
+1 :  [namespace = HrcxSwyd] Optimize(mles, likelihoodFunction);
+-------
+2 :  [namespace = AotkiNVt] return estimators.FitSingleModel_Ext(data_filter,tree,"models.DNA.GTR.ModelDescription",initial_values,run_options);
+-------
+3 :  [namespace = RbLOAzqd] return estimators.FitGTR_Ext(data_filter,tree,initial_values,{});
+-------
+4 :  [namespace = absrel] gtr_results=estimators.FitGTR(filter_names,trees,gtr_results);
+-------
+5 :  [namespace = absrel] doGTR("absrel");
+-------
+6 :  namespace 
+
+Step 0.doGTR("absrel");;
+-------
+
+Check errors.log for execution error details.

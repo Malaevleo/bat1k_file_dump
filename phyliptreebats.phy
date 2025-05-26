@@ -1,0 +1,88 @@
+(
+(
+(
+(
+'Pteronotus mesoamericanus':4)
+Pteronotus:4)
+Mormoopidae:4,
+(
+(
+'Miniopterus natalensis':4)
+Miniopterus:4)
+Miniopteridae:4,
+(
+(
+(
+'Saccopteryx leptura':4,
+'Saccopteryx bilineata':4
+)Saccopteryx:4)
+Emballonurinae:4)
+Emballonuridae:4,
+(
+(
+'Pipistrellus nathusii':4,
+'Pipistrellus kuhlii':4
+)Pipistrellus:4,
+(
+'Myotis davidii':4,
+'Myotis brandtii':4,
+'Myotis daubentonii':4,
+'Myotis lucifugus':4,
+'Myotis myotis':4
+)Myotis:4,
+(
+'Eptesicus nilssonii':4,
+'Eptesicus fuscus':4
+)Eptesicus:4
+)Vespertilionidae:4,
+(
+(
+'Molossus molossus':4)
+Molossus:4)
+Molossidae:4,
+(
+(
+(
+'Desmodus rotundus':4)
+Desmodus:4)
+Desmodontinae:4,
+(
+'Phyllostomus discolor':4,
+'Phyllostomus hastatus':4
+)Phyllostomus:4,
+(
+(
+'Artibeus jamaicensis':4)
+Artibeus:4)
+Stenodermatinae:4
+)Phyllostomidae:4
+)Yangochiroptera:4,
+(
+(
+(
+(
+'Hipposideros armiger':4)
+Hipposideros:4)
+Hipposideridae:4,
+(
+(
+(
+'Rhinolophus ferrumequinum':4)
+Rhinolophus:4)
+Rhinolophinae:4)
+Rhinolophidae:4
+)Rhinolophoidea:4,
+(
+(
+(
+'Rousettus aegyptiacus':4)
+Rousettus:4)
+Rousettinae:4,
+(
+'Pteropus giganteus':4,
+'Pteropus vampyrus':4,
+'Pteropus alecto':4
+)Pteropus:4
+)Pteropodidae:4
+)Yinpterochiroptera:4
+)Chiroptera:4;

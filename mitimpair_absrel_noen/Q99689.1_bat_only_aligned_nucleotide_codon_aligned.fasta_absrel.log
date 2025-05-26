@@ -1,0 +1,136 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch. v2.2 adds support for
+multiple-hit models. v2.3 adds support for SRV. v2.5 adds support for
+ancestral state reconstruction, identification of sites contributing to
+selection signal, and some diagnostics. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__:  Less Is More: An Adaptive Branch-Site Random Effects Model for
+Efficient Detection of Episodic Diversifying Selection (2015). Mol Biol
+Evol 32 (5): 1342-1353. 
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.5
+
+[Advanced option] Bag of little bootstrap alignment resampling rate (permissible range = [0.01,1], default value = 1): blb: 1
+
+>code => Universal
+/home/malaevleo/mitimpair_trees_noen/Q99689.1_bat_only_aligned_nucleotide_codon_aligned.fasta_pruned.nwk
+mitimpair_trees_noen/Q99689.1_bat_only_aligned_nucleotide_codon_aligned.fasta_pruned.nwk
+
+>Loaded a multiple sequence alignment with **17** sequences, **333** codons, and **1** partitions from `/home/malaevleo/mitimpair_pal2nal_noen/Q99689.1_bat_only_aligned_nucleotide_codon_aligned.fasta`
+
+>branches => All
+
+>multiple-hits => None
+
+>srv => No
+
+
+### * Selected 31 branches for testing: `rfXP_032954214_1, paXP_015447486_1, pgXP_039728717_1, pvXP_011365433_1, Pteropusgv, Pteropus, raXP_015978145_1, Pteropodidae, sbXP_066111091_1, ajXP_053515428_1, phXP_045716236_1, pdXP_028384816_1, Phyllostomus, AjPh, drXP_024413080_1, Phyllostomidae, moXP_036132700_1, mbXP_005870966_1, mlXP_023599026_1, Myobl, mdXP_059531764_1, mmXP_036210066_1, Myodm, Myotis, pkXP_045441420_1, pnCAK6440313_1, Pipistrellus, Vespertilionidae, MolossusPhyllostomus, YangochiropteraAfterSaccopteryx, Yangochiroptera`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths => Yes
+
+### Deleted 1 zero-length internal branches: `Pteropusgv`
+* Log(L) = -3221.23, AIC-c =  6520.64 (39 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.328
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -2863.96, AIC-c =  5877.90 (74 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.10, and 95% of the weight in  0.00 -  0.39
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|         Vespertilionidae          |   0.05   |    2     |    0.06 (47.48%)   |   -2863.96    |    5882.01    |     5877.90     |
+|         sbXP_066111091_1          |   0.03   |    2     |    3.04 ( 2.71%)   |   -2863.42    |    5880.93    |     5877.90     |
+|          Phyllostomidae           |   0.03   |    2     |  132.24 ( 0.32%)   |   -2860.83    |    5875.76    |     5875.76     |
+|          Phyllostomidae           |   0.03   |    3     |  137.20 ( 0.28%)   |   -2860.96    |    5880.13    |     5875.76     |
+|           Pipistrellus            |   0.02   |    2     |    0.75 ( 5.13%)   |   -2860.84    |    5879.89    |     5875.76     |
+|         moXP_036132700_1          |   0.02   |    2     |    9.23 ( 3.05%)   |   -2856.29    |    5870.78    |     5870.78     |
+|         moXP_036132700_1          |   0.02   |    3     |   10.39 ( 2.52%)   |   -2856.37    |    5875.06    |     5870.78     |
+|         drXP_024413080_1          |   0.02   |    2     |    0.03 (11.35%)   |   -2856.29    |    5874.90    |     5870.78     |
+|         ajXP_053515428_1          |   0.02   |    2     |    0.12 (41.21%)   |   -2856.29    |    5874.90    |     5870.78     |
+|          Yangochiroptera          |   0.02   |    2     |    0.13 (48.44%)   |   -2856.29    |    5874.90    |     5870.78     |
+|           Pteropodidae            |   0.02   |    2     |    0.26 ( 9.95%)   |   -2856.29    |    5874.90    |     5870.78     |
+|           Phyllostomus            |   0.01   |    2     |    0.00 ( 0.00%)   |   -2856.29    |    5874.90    |     5870.78     |
+|         rfXP_032954214_1          |   0.01   |    2     |    0.19 (88.77%)   |   -2856.29    |    5874.90    |     5870.78     |
+|       MolossusPhyllostomus        |   0.01   |    2     |    0.00 ( 0.72%)   |   -2856.28    |    5874.89    |     5870.78     |
+|         mdXP_059531764_1          |   0.01   |    2     |    0.20 (94.49%)   |   -2856.29    |    5874.90    |     5870.78     |
+|         pkXP_045441420_1          |   0.01   |    2     |    0.40 (91.33%)   |   -2856.29    |    5874.90    |     5870.78     |
+|          pnCAK6440313_1           |   0.01   |    2     |    0.00 ( 0.64%)   |   -2856.29    |    5874.90    |     5870.78     |
+|         pdXP_028384816_1          |   0.01   |    2     |    0.74 ( 9.90%)   |   -2856.29    |    5874.90    |     5870.78     |
+|         phXP_045716236_1          |   0.01   |    2     |    0.19 (90.25%)   |   -2856.29    |    5874.90    |     5870.78     |
+|             Pteropus              |   0.01   |    2     |    0.00 ( 0.00%)   |   -2856.29    |    5874.90    |     5870.78     |
+|         mmXP_036210066_1          |   0.01   |    2     |    0.17 (50.26%)   |   -2856.29    |    5874.90    |     5870.78     |
+|               Myodm               |   0.01   |    2     |    0.19 (50.53%)   |   -2856.29    |    5874.90    |     5870.78     |
+|         raXP_015978145_1          |   0.01   |    2     |    0.19 (51.29%)   |   -2856.29    |    5874.90    |     5870.78     |
+|              Myotis               |   0.00   |    2     |    0.19 (75.68%)   |   -2856.29    |    5874.90    |     5870.78     |
+|               AjPh                |   0.00   |    2     |    0.20 (78.77%)   |   -2856.29    |    5874.90    |     5870.78     |
+|         mbXP_005870966_1          |   0.00   |    2     |    0.00 ( 5.00%)   |   -2856.29    |    5874.90    |     5870.78     |
+|         mlXP_023599026_1          |   0.00   |    2     |    0.00 ( 5.00%)   |   -2856.29    |    5874.90    |     5870.78     |
+|         paXP_015447486_1          |   0.00   |    2     |    0.00 ( 0.00%)   |   -2856.29    |    5874.90    |     5870.78     |
+|               Myobl               |   0.00   |    2     |    0.00 ( 3.09%)   |   -2856.29    |    5874.90    |     5870.78     |
+|         pgXP_039728717_1          |   0.00   |    2     |    0.00 ( 5.00%)   |   -2856.29    |    5874.90    |     5870.78     |
+|         pvXP_011365433_1          |   0.00   |    2     |    0.00 ( 5.00%)   |   -2856.29    |    5874.90    |     5870.78     |
+|  YangochiropteraAfterSaccopteryx  |   0.00   |    2     |    0.01 ( 0.00%)   |   -2856.27    |    5874.87    |     5870.78     |
+
+### Rate class analyses summary
+*  28 branches with **1** rate classes
+*  2 branches with **2** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -2839.83, AIC-c =  5837.87 (78 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     | Sites @ EBF>=100 |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|------------------|--------------------|--------------------|
+|         Vespertilionidae          |     1    |   0.05 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         sbXP_066111091_1          |     1    |   0.05 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|          Phyllostomidae           |     2    |  145.06 ( 0.32%)   |          1       |        3.84        |       0.05400      |
+|           Pipistrellus            |     1    |   0.03 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         moXP_036132700_1          |     2    |    7.14 ( 3.11%)   |          6       |        3.56        |       0.06246      |
+|         drXP_024413080_1          |     1    |   0.02 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         ajXP_053515428_1          |     1    |   0.10 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|          Yangochiroptera          |     1    |   0.10 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|           Pteropodidae            |     1    |   0.02 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|           Phyllostomus            |     1    |   0.00 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         rfXP_032954214_1          |     1    |   0.15 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|       MolossusPhyllostomus        |     1    |   0.00 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         mdXP_059531764_1          |     1    |   0.15 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         pkXP_045441420_1          |     1    |   0.30 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|          pnCAK6440313_1           |     1    |   0.00 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         pdXP_028384816_1          |     1    |   0.06 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         phXP_045716236_1          |     1    |   0.15 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|             Pteropus              |     1    |   0.00 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         mmXP_036210066_1          |     1    |   0.07 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|               Myodm               |     1    |   0.08 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         raXP_015978145_1          |     1    |   0.08 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|              Myotis               |     1    |   0.11 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|               AjPh                |     1    |   0.14 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         mbXP_005870966_1          |     1    |   0.00 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         mlXP_023599026_1          |     1    |   0.00 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         paXP_015447486_1          |     1    |   0.00 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|               Myobl               |     1    |   0.00 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         pgXP_039728717_1          |     1    |   0.00 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|         pvXP_011365433_1          |     1    |   0.00 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+|  YangochiropteraAfterSaccopteryx  |     1    |   1.00 (100.00%)   |       N/A        |        0.00        |       1.00000      |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **30** tested.
+
